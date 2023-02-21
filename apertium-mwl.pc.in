@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-mwl
+
+Name: apertium-mwl
+Description: Finite-state morphological transducer and constraint grammar for Mirandese
+Version: @VERSION@
+

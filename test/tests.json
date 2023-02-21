@@ -1,0 +1,10 @@
+{
+    "analysis": {
+        "input": "analysis-input.txt",
+        "mode": "mwl-disam"
+    },
+    "generation": {
+        "input": "generation-input.txt",
+        "mode": "mwl-gener"
+    }
+}
