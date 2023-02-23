@@ -1,0 +1,3 @@
+^buono<adj><m><pl>$
+^negro<adj><f>$
+^rápido<adj><f><pl>$

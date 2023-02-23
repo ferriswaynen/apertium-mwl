@@ -1,10 +1,1 @@
-{
-    "analysis": {
-        "input": "analysis-input.txt",
-        "mode": "mwl-disam"
-    },
-    "generation": {
-        "input": "generation-input.txt",
-        "mode": "mwl-gener"
-    }
-}
+{"analysis": {"input": "analysis-input.txt", "mode": "mwl-disam"}, "generation": {"input": "generation-input.txt", "mode": "mwl-gener"}, "Nouns-morph": {"input": "Nouns/Nouns-morph-input.txt", "mode": "mwl-morph"}, "Nouns-gen": {"input": "Nouns/Nouns-gen-input.txt", "mode": "mwl-gener"}, "Adjectives-morph": {"input": "Adjectives/Adjectives-morph-input.txt", "mode": "mwl-morph"}, "Adjectives-gen": {"input": "Adjectives/Adjectives-gen-input.txt", "mode": "mwl-gener"}, "Verbs-morph": {"input": "Verbs/Verbs-morph-input.txt", "mode": "mwl-morph"}, "Verbs-gen": {"input": "Verbs/Verbs-gen-input.txt", "mode": "mwl-gener"}, "Pronouns-morph": {"input": "Pronouns/Pronouns-morph-input.txt", "mode": "mwl-morph"}, "Pronouns-gen": {"input": "Pronouns/Pronouns-gen-input.txt", "mode": "mwl-gener"}, "Adverbs-morph": {"input": "Adverbs/Adverbs-morph-input.txt", "mode": "mwl-morph"}, "Adverbs-gen": {"input": "Adverbs/Adverbs-gen-input.txt", "mode": "mwl-gener"}}

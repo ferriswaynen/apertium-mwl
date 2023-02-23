@@ -1,0 +1,11 @@
+^nino<n><m><sg>$
+^home<n><m><sg>$
+^fator<n><m><sg>$
+^boda<n><f><sg>$
+^arble<n><f><sg>$
+^nome<n><m><pl>$
+^gato<n><m><pl>$
+^cumputador<n><m><pl>$
+^papel<n><m><pl>$
+^beç<n><m><pl>$
+^paíç<n><m><pl>$
