@@ -26,6 +26,7 @@
 # Gender morphology
 # <m>      # Masculine
 # <f>      # Feminine
+# <mf>     # Masculine and Feminine
 
 # Verb morphology
 # <tv>     # Transitive Verb
@@ -36,6 +37,7 @@
 # <p1>     # First person
 # <p2>     # Second person
 # <p3>     # Third person
+# <inf>    # Infinitive
 
 # Pronoun morphology
 # <pers>   # Personal
@@ -53,6 +55,38 @@
 PATTERNS
 ## Example inflection pattern:
 (NounRoot RegNounInfl)[^[M,F]]
+(AdjRoot[MF] RegAdjInfl[MF])
+(AdvRoot RegAdvInfl)
+(PrnRoot)
+# Make infinitives
+V-Stem[AR] Infin[AR] [<infin>:]
+V-Stem[ER] Infin[ER] [<infin>:]
+V-Stem[IR] Infin[IR] [<infin>:]
+(V-Stem V-SimplePresentIndicative)
+(V-Stem V-SimplePastIndicative)
+(V-Stem V-SimpleFutureIndicative)
+(V-Stem V-SimpleFutureSubjunctive)
+
+
+
+PATTERN AR-SimpleFutureIndicative
+V-Stem[AR] Infin[AR] SimpleFutureIndicative[AR]
+
+PATTERN ER-SimpleFutureIndicative
+V-Stem[ER] Infin[ER] SimpleFutureIndicative[ER]
+
+PATTERN IR-SimpleFutureIndicative
+V-Stem[IR] Infin[IR] SimpleFutureIndicative[IR]
+
+PATTERN AR-SimpleFutureSubjunctive
+V-Stem[AR] Infin[AR] SimpleFutureSubjunctive[AR]
+
+PATTERN ER-SimpleFutureSubjunctive
+V-Stem[ER] Infin[ER] SimpleFutureSubjunctive[ER]
+
+PATTERN IR-SimpleFutureSubjunctive
+V-Stem[IR] Infin[IR] SimpleFutureSubjunctive[IR]
+
 Number
 Punctuation
 
@@ -64,16 +98,113 @@ LEXICON RegNounInfl
 <n><m><pl>:>{e}s[M]
 <n><f><pl>:>{e}s[F]
 
+LEXICON RegAdjInfl
+<adj><mf><sg>:[MF]
+<adj><mf><pl>:>s[MF]
+
+LEXICON RegAdvInfl
+<adv>:
+
+LEXICON V-Stem
+falar<v><tv>:fal[AR]
+deber<v><tv>:deb[ER]
+eisistir<v><tv>:eisist[IR]
+
+LEXICON Infin 
+:ar[AR]
+:er[ER]
+:ir[IR]
+
+
+LEXICON V-SimplePresentIndicative
+<pres><p1><sg>:o[AR]
+<pres><p2><sg>:as[AR]
+<pres><p3><sg>:a[AR]
+<pres><p1><pl>:amos[AR]
+<pres><p2><pl>:ais[AR]
+<pres><p3><pl>:an[AR]
+<pres><p1><sg>:o[ER]
+<pres><p2><sg>:es[ER]
+<pres><p3><sg>:e[ER]
+<pres><p1><pl>:emos[ER]
+<pres><p2><pl>:eis[ER]
+<pres><p3><pl>:en[ER]
+<pres><p1><sg>:o[IR]
+<pres><p2><sg>:es[IR]
+<pres><p3><sg>:e[IR]
+<pres><p1><pl>:imos[IR]
+<pres><p2><pl>:is[IR]
+<pres><p3><pl>:en[IR]
+
+LEXICON V-SimplePastIndicative
+<past><p1><sg>:ei[AR]
+<past><p2><sg>:este[AR]
+<past><p3><sg>:ou[AR]
+<past><p1><pl>:emos[AR]
+<past><p2><pl>:estes[AR]
+<past><p3><pl>:órun[AR]
+<past><p1><sg>:i[ER]
+<past><p2><sg>:iste[ER]
+<past><p3><sg>:iu[ER]
+<past><p1><pl>:imos[ER]
+<past><p2><pl>:istes[ER]
+<past><p3><pl>:írun[ER]
+<past><p1><sg>:i[IR]
+<past><p2><sg>:iste[IR]
+<past><p3><sg>:iu[IR]
+<past><p1><pl>:imos[IR]
+<past><p2><pl>:istes[IR]
+<past><p3><pl>:írun[IR]
+
+LEXICON V-SimpleFutureIndicative
+<fut><p1><sg>:ei[AR]
+<fut><p2><sg>:ás[AR]
+<fut><p3><sg>:á[AR]
+<fut><p1><pl>:emos[AR]
+<fut><p2><pl>:eis[AR]
+<fut><p3><pl>:an[AR]
+<fut><p1><sg>:ei[ER]
+<fut><p2><sg>:ás[ER]
+<fut><p3><sg>:á[ER]
+<fut><p1><pl>:emos[ER]
+<fut><p2><pl>:eis[ER]
+<fut><p3><pl>:an[ER]
+<fut><p1><sg>:ei[IR]
+<fut><p2><sg>:ás[IR]
+<fut><p3><sg>:á[IR]
+<fut><p1><pl>:emos[IR]
+<fut><p2><pl>:eis[IR]
+<fut><p3><pl>:an[IR]
+
+LEXICON V-SimpleFutureSubjunctive
+<fts><p1><sg>:[AR]
+<fts><p2><sg>:es[AR]
+<fts><p3><sg>:[AR]
+<fts><p1><pl>:mos[AR]
+<fts><p2><pl>:des[AR]
+<fts><p3><pl>:en[AR]
+<fts><p1><sg>:[ER]
+<fts><p2><sg>:es[ER]
+<fts><p3><sg>:[ER]
+<fts><p1><pl>:mos[ER]
+<fts><p2><pl>:des[ER]
+<fts><p3><pl>:en[ER]
+<fts><p1><sg>:[IR]
+<fts><p2><sg>:es[IR]
+<fts><p3><sg>:[IR]
+<fts><p1><pl>:mos[IR]
+<fts><p2><pl>:des[IR]
+<fts><p3><pl>:en[IR]
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
 ###############################################################################
 
-## Grammatical gender:
+## Grammatical gender:hfst-expand -c0 xyz.automorf.hfst
 LEXICON NounRoot 
 
  # A noun
-home:home[M] 
+home:home[M]
 fator:fator[M]
 boda:boda[F]
 arble:arble[F]
@@ -85,6 +216,49 @@ beç:be{Ç}[M]
 paíç:paí{Ç}[M]
 nino:nino[M]
 
+LEXICON AdjRoot
+
+# An adjective
+buono:buon{O}[MF]
+negro:negr{O}[MF]
+rápido:rápid{O}[MF]
+
+LEXICON AdvRoot
+
+# An adverb
+frequentemente:frequentemente
+manhana:manhana
+lhougo:lhougo
+lhougo:lougo #Dir/LR
+
+LEXICON PrnRoot
+
+# A pronoun
+you<prn><pers><p1><sg><subj>:you
+tu<prn><pers><p2><sg><subj>:tu
+el<prn><pers><p3><m><sg><subj>:el
+eilha<prn><pers><p3><f><sg><subj>:eilha
+nós<prn><pers><p1><pl><subj>:nós
+bós<prn><pers><p2><pl><subj>:bós
+eilhes<prn><pers><p3><m><pl><subj>:eilhes
+eilhas<prn><pers><p3><f><pl><subj>:eilhas
+you<prn><pers><p1><sg><pos>:miu
+tu<prn><pers><p2><sg><pos>:tou
+el<prn><pers><p3><m><sg><pos>:sou
+eilha<prn><pers><p3><f><sg><pos>:sou
+nós<prn><pers><p1><pl><pos>:nuosso
+bós<prn><pers><p2><pl><pos>:buosso
+eilhes<prn><pers><p3><m><pl><pos>:sou
+eilhas<prn><pers><p3><f><pl><pos>:sou
+you<prn><pers><p1><sg><obj>:me
+tu<prn><pers><p2><sg><obj>:te
+el<prn><pers><p3><m><sg><obj>:lo
+el<prn><pers><p3><m><sg><obj>:l #Dir/LR
+eilha<prn><pers><p3><f><sg><obj>:la
+nós<prn><pers><p1><pl><obj>:nos
+bós<prn><pers><p2><pl><obj>:bos
+eilhes<prn><pers><p3><m><pl><obj>:los
+eilhas<prn><pers><p3><f><pl><obj>:las
 
 PATTERN Number
 Numeral+ [<num>:]
