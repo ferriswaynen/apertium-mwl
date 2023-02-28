@@ -1,22 +1,22 @@
-[2huitndARDfd#0] ^cumputadores/*cumputadores$
+[2huitndARDfd#0] ^cumputadores/cumputador<n><m><pl>$
 [/2huitndARDfd]
-[9Pn8mn2JhVWm#0] ^papeles/*papeles$
+[9Pn8mn2JhVWm#0] ^papeles/papel<n><m><pl>$
 [/9Pn8mn2JhVWm]
-[Moe62mTh8ure#0] ^nomes/*nomes$
+[Moe62mTh8ure#0] ^nomes/nome<n><m><pl>$
 [/Moe62mTh8ure]
-[NPZZDCkeE9aw#0] ^boda/*boda$
+[NPZZDCkeE9aw#0] ^boda/boda<n><f><sg>$
 [/NPZZDCkeE9aw]
-[TqFAWIFQdzzj#0] ^home/*home$
+[TqFAWIFQdzzj#0] ^home/home<n><m><sg>$
 [/TqFAWIFQdzzj]
-[XGD-DUkpGdGW#0] ^nino/*nino$
+[XGD-DUkpGdGW#0] ^nino/nino<n><m><sg>$
 [/XGD-DUkpGdGW]
 [_wlkOEW5XYBE#0] ^paízes/*paízes$
 [/_wlkOEW5XYBE]
-[cFH9OwFzOu2h#0] ^gatos/*gatos$
+[cFH9OwFzOu2h#0] ^gatos/gato<n><m><pl>$
 [/cFH9OwFzOu2h]
-[hPl5FkU4cxap#0] ^fator/*fator$
+[hPl5FkU4cxap#0] ^fator/fator<n><m><sg>$
 [/hPl5FkU4cxap]
-[rFa0qb9ZH3wu#0] ^arble/*arble$
+[rFa0qb9ZH3wu#0] ^arble/arble<n><f><sg>$
 [/rFa0qb9ZH3wu]
-[tomW5oV1rTrA#0] ^bezes/*bezes$
+[tomW5oV1rTrA#0] ^bezes/beç<n><m><pl>$
 [/tomW5oV1rTrA]

@@ -42,7 +42,7 @@
 # Pronoun morphology
 # <pers>   # Personal
 # <subj>   # Subjective
-# <pos>    # Possessive 
+# <pos>    # Possessive
 # <obj>    # Object
 
 # Other symbols
@@ -53,39 +53,18 @@
 ###############################################################################
 
 PATTERNS
-## Example inflection pattern:
+## Inflection patterns
 (NounRoot RegNounInfl)[^[M,F]]
 (AdjRoot[MF] RegAdjInfl[MF])
 (AdvRoot RegAdvInfl)
 (PrnRoot)
 # Make infinitives
-V-Stem[AR] Infin[AR] [<infin>:]
-V-Stem[ER] Infin[ER] [<infin>:]
-V-Stem[IR] Infin[IR] [<infin>:]
-(V-Stem V-SimplePresentIndicative)
-(V-Stem V-SimplePastIndicative)
-(V-Stem V-SimpleFutureIndicative)
-(V-Stem V-SimpleFutureSubjunctive)
-
-
-
-PATTERN AR-SimpleFutureIndicative
-V-Stem[AR] Infin[AR] SimpleFutureIndicative[AR]
-
-PATTERN ER-SimpleFutureIndicative
-V-Stem[ER] Infin[ER] SimpleFutureIndicative[ER]
-
-PATTERN IR-SimpleFutureIndicative
-V-Stem[IR] Infin[IR] SimpleFutureIndicative[IR]
-
-PATTERN AR-SimpleFutureSubjunctive
-V-Stem[AR] Infin[AR] SimpleFutureSubjunctive[AR]
-
-PATTERN ER-SimpleFutureSubjunctive
-V-Stem[ER] Infin[ER] SimpleFutureSubjunctive[ER]
-
-PATTERN IR-SimpleFutureSubjunctive
-V-Stem[IR] Infin[IR] SimpleFutureSubjunctive[IR]
+(V-Stem Infin)[^[AR,ER,IR]]
+(V-Stem V-SimplePresentIndicative)[^[AR,ER,IR]]
+(V-Stem V-SimplePastIndicative)[^[AR,ER,IR]]
+(V-Stem Infin V-SimpleFutureIndicative)[^[AR,ER,IR]]
+(V-Stem Infin V-SimpleFutureSubjunctive)[^[AR,ER,IR]]
+(Preposition)
 
 Number
 Punctuation
@@ -110,10 +89,10 @@ falar<v><tv>:fal[AR]
 deber<v><tv>:deb[ER]
 eisistir<v><tv>:eisist[IR]
 
-LEXICON Infin 
-:ar[AR]
-:er[ER]
-:ir[IR]
+LEXICON Infin
+:a{accent}r[AR]
+:e{accent}r[ER]
+:i{accent}r[IR]
 
 
 LEXICON V-SimplePresentIndicative
@@ -182,26 +161,29 @@ LEXICON V-SimpleFutureSubjunctive
 <fts><p3><sg>:[AR]
 <fts><p1><pl>:mos[AR]
 <fts><p2><pl>:des[AR]
-<fts><p3><pl>:en[AR]
+<fts><p3><pl>:{subj}en[AR]
 <fts><p1><sg>:[ER]
 <fts><p2><sg>:es[ER]
 <fts><p3><sg>:[ER]
 <fts><p1><pl>:mos[ER]
 <fts><p2><pl>:des[ER]
-<fts><p3><pl>:en[ER]
+<fts><p3><pl>:{subj}en[ER]
 <fts><p1><sg>:[IR]
 <fts><p2><sg>:es[IR]
 <fts><p3><sg>:[IR]
 <fts><p1><pl>:mos[IR]
 <fts><p2><pl>:des[IR]
-<fts><p3><pl>:en[IR]
+<fts><p3><pl>:{subj}en[IR]
+
+LEXICON Preposition
+de<pr>:de
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
 ###############################################################################
 
 ## Grammatical gender:hfst-expand -c0 xyz.automorf.hfst
-LEXICON NounRoot 
+LEXICON NounRoot
 
  # A noun
 home:home[M]
@@ -287,7 +269,7 @@ LEXICON Punctuation
 -<guio>:-
 —<guio>:—
 ,<cm>:,
-?<sent>:? 
+?<sent>:?
 '<apos>:'
 "<quot>:"
 «<lquot>:«

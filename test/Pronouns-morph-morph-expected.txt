@@ -1,44 +1,44 @@
-[1lw-iSNUsXpM#0] ^el/*el$
+[1lw-iSNUsXpM#0] ^el/el<prn><pers><p3><m><sg><subj>$
 [/1lw-iSNUsXpM]
-[6krV7Wt7EkpT#0] ^tou/*tou$
+[6krV7Wt7EkpT#0] ^tou/tu<prn><pers><p2><sg><pos>$
 [/6krV7Wt7EkpT]
-[AtXQUip2YI1k#0] ^las/*las$
+[AtXQUip2YI1k#0] ^las/eilhas<prn><pers><p3><f><pl><obj>$
 [/AtXQUip2YI1k]
-[J0TM0Qx1M71z#0] ^me/*me$
+[J0TM0Qx1M71z#0] ^me/you<prn><pers><p1><sg><obj>$
 [/J0TM0Qx1M71z]
-[LJ43g3XqXAN1#0] ^nos/*nos$
+[LJ43g3XqXAN1#0] ^nos/nós<prn><pers><p1><pl><obj>$
 [/LJ43g3XqXAN1]
-[LWyakN049oUl#0] ^te/*te$
+[LWyakN049oUl#0] ^te/tu<prn><pers><p2><sg><obj>$
 [/LWyakN049oUl]
-[QotN8kFXraP2#0] ^nuosso/*nuosso$
+[QotN8kFXraP2#0] ^nuosso/nós<prn><pers><p1><pl><pos>$
 [/QotN8kFXraP2]
-[SHPQpgSQzIy2#0] ^eilha/*eilha$
+[SHPQpgSQzIy2#0] ^eilha/eilha<prn><pers><p3><f><sg><subj>$
 [/SHPQpgSQzIy2]
-[TS0d_LjQO8YL#0] ^bos/*bos$
+[TS0d_LjQO8YL#0] ^bos/bós<prn><pers><p2><pl><obj>$
 [/TS0d_LjQO8YL]
 [WjurXFBdcSI_#0] ^nós/*nós$
 [/WjurXFBdcSI_]
-[_P3h1yBaVn2b#0] ^miu/*miu$
+[_P3h1yBaVn2b#0] ^miu/you<prn><pers><p1><sg><pos>$
 [/_P3h1yBaVn2b]
-[dkxMe3jW_Tt7#0] ^tu/*tu$
+[dkxMe3jW_Tt7#0] ^tu/tu<prn><pers><p2><sg><subj>$
 [/dkxMe3jW_Tt7]
-[j1hLWbNjNPD3#0] ^eilhes/*eilhes$
+[j1hLWbNjNPD3#0] ^eilhes/eilhes<prn><pers><p3><m><pl><subj>$
 [/j1hLWbNjNPD3]
-[kpSrOAOfYNLs#0] ^lo/*lo$
+[kpSrOAOfYNLs#0] ^lo/el<prn><pers><p3><m><sg><obj>$
 [/kpSrOAOfYNLs]
-[kqDnB5nLZwSD#0] ^sou/*sou$
+[kqDnB5nLZwSD#0] ^sou/el<prn><pers><p3><m><sg><pos>/eilha<prn><pers><p3><f><sg><pos>/eilhas<prn><pers><p3><f><pl><pos>/eilhes<prn><pers><p3><m><pl><pos>$
 [/kqDnB5nLZwSD]
-[oU6gZHVT75TE#0] ^eilhas/*eilhas$
+[oU6gZHVT75TE#0] ^eilhas/eilhas<prn><pers><p3><f><pl><subj>$
 [/oU6gZHVT75TE]
-[okyNDbxqEtq1#0] ^buosso/*buosso$
+[okyNDbxqEtq1#0] ^buosso/bós<prn><pers><p2><pl><pos>$
 [/okyNDbxqEtq1]
-[rKyGwOYJypBv#0] ^l/*l$
+[rKyGwOYJypBv#0] ^l/el<prn><pers><p3><m><sg><obj>$
 [/rKyGwOYJypBv]
-[tzfKfuVjroDk#0] ^la/*la$
+[tzfKfuVjroDk#0] ^la/eilha<prn><pers><p3><f><sg><obj>$
 [/tzfKfuVjroDk]
-[uwNHpGjZfpip#0] ^you/*you$
+[uwNHpGjZfpip#0] ^you/you<prn><pers><p1><sg><subj>$
 [/uwNHpGjZfpip]
 [wxzG2W_mXBCw#0] ^bós/*bós$
 [/wxzG2W_mXBCw]
-[y25TVB43odYH#0] ^los/*los$
+[y25TVB43odYH#0] ^los/eilhes<prn><pers><p3><m><pl><obj>$
 [/y25TVB43odYH]
