@@ -14,7 +14,7 @@
 ^falais/falar<v><tv><pres><p2><pl>$ [/option]
 [/2JjvQ30co_YA]
 [QjKWN2S8yKCM]
-^fálan/falar<v><tv><pres><p3><pl>$ [/option]
+^fálan/falar<v><tv><pres><p3><pl>$ [/option]
 [/QjKWN2S8yKCM]
 [ss99t6Udo1-P]
 ^debo/deber<v><tv><pres><p1><sg>$ [/option]

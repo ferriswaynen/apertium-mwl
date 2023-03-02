@@ -10,12 +10,12 @@
 [/TqFAWIFQdzzj]
 [XGD-DUkpGdGW#0] ^nino/nino<n><m><sg>$
 [/XGD-DUkpGdGW]
-[_wlkOEW5XYBE#0] ^paízes/*paízes$
-[/_wlkOEW5XYBE]
 [cFH9OwFzOu2h#0] ^gatos/gato<n><m><pl>$
 [/cFH9OwFzOu2h]
 [hPl5FkU4cxap#0] ^fator/fator<n><m><sg>$
 [/hPl5FkU4cxap]
+[nouN5MotFV41#0] ^paízes/paíç<n><m><pl>$
+[/nouN5MotFV41]
 [rFa0qb9ZH3wu#0] ^arble/arble<n><f><sg>$
 [/rFa0qb9ZH3wu]
 [tomW5oV1rTrA#0] ^bezes/beç<n><m><pl>$

@@ -8,4 +8,4 @@
 ^cumputador<n><m><pl>$
 ^papel<n><m><pl>$
 ^beç<n><m><pl>$
-^paíç<n><m><pl>$
+^paíç<n><m><pl>$

@@ -1,4 +1,4 @@
-[75qz11vkLP_Q#0] ^negra/*negra$
+[75qz11vkLP_Q#0] ^negra/negro<adj><mf><sg>$
 [/75qz11vkLP_Q]
 [rhR8Ev0gTwHU#0] ^buonos/buono<adj><mf><pl>$
 [/rhR8Ev0gTwHU]

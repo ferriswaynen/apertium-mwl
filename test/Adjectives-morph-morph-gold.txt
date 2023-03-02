@@ -6,5 +6,5 @@
 ^buonos/buono<adj><m><pl>$ [/option]
 [/rhR8Ev0gTwHU]
 [sCtaWAUYWqvn]
-^rápidas/rápido<adj><f><pl>$ [/option]
+^rápidas/rápido<adj><f><pl>$ [/option]
 [/sCtaWAUYWqvn]

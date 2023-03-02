@@ -8,76 +8,76 @@
 [/1D1Dv0Dq-R1H]
 [2JjvQ30co_YA#0] ^falais/falar<v><tv><pres><p2><pl>$
 [/2JjvQ30co_YA]
-[2niBKj7gcbYd#0] ^eisistirás/*eisistirás$
-[/2niBKj7gcbYd]
-[4u-FdwCseTh9#0] ^debírun/*debírun$
-[/4u-FdwCseTh9]
+[31TKCPJg0nxv#0] ^fálan/*fálan$
+[/31TKCPJg0nxv]
+[5MC2udLMeb1p#0] ^debírun/deber<v><tv><past><p3><pl>$
+[/5MC2udLMeb1p]
 [5ckw12zH0xTu#0] ^falardes/falar<v><tv><fts><p2><pl>$
 [/5ckw12zH0xTu]
 [6Vkdjit6FUq1#0] ^eisistiremos/eisistir<v><tv><fut><p1><pl>$
 [/6Vkdjit6FUq1]
 [6w-gfWjfz1zY#0] ^eisistes/eisistir<v><tv><pres><p2><sg>$
 [/6w-gfWjfz1zY]
+[8wbBqYFwy0ER#0] ^eisistirás/eisistir<v><tv><fut><p2><sg>$
+[/8wbBqYFwy0ER]
 [CcM7a5o3DBgJ#0] ^debires/*debires$
 [/CcM7a5o3DBgJ]
 [Cgllt_QgQqIt#0] ^eisisti/eisistir<v><tv><past><p1><sg>$
 [/Cgllt_QgQqIt]
 [ENLvRekqVwZc#0] ^debi/deber<v><tv><past><p1><sg>$
 [/ENLvRekqVwZc]
-[EcGbW1KT0aML#0] ^falará/*falará$
-[/EcGbW1KT0aML]
-[EgFT9vUedVD-#0] ^falarás/*falarás$
-[/EgFT9vUedVD-]
+[EQ3sxbf6psTG#0] ^eisistírun/eisistir<v><tv><past><p3><pl>$
+[/EQ3sxbf6psTG]
 [EzNmOVHVXABd#0] ^falamos/falar<v><tv><pres><p1><pl>$
 [/EzNmOVHVXABd]
-[IdaPwCFbe5pl#0] ^eisistirá/*eisistirá$
-[/IdaPwCFbe5pl]
-[IgiKx44O_QBn#0] ^deberá/*deberá$
-[/IgiKx44O_QBn]
+[GXlX3bNNYX5_#0] ^eisistíren/eisistir<v><tv><fts><p3><pl>$
+[/GXlX3bNNYX5_]
 [JSgwBdNHnZ03#0] ^debirdes/*debirdes$
 [/JSgwBdNHnZ03]
-[JYuoV2D78b1R#0] ^eisistírun/*eisistírun$
-[/JYuoV2D78b1R]
 [KhqGbYQtvDVX#0] ^debistes/deber<v><tv><past><p2><pl>$
 [/KhqGbYQtvDVX]
 [MBhe52TS2xYK#0] ^eisistimos/eisistir<v><tv><pres><p1><pl>/eisistir<v><tv><past><p1><pl>$
 [/MBhe52TS2xYK]
+[NBCqrrXYTyhF#0] ^deberás/deber<v><tv><fut><p2><sg>$
+[/NBCqrrXYTyhF]
+[NUTi2Q4nsoR4#0] ^falórun/falar<v><tv><past><p3><pl>$
+[/NUTi2Q4nsoR4]
 [OLm53e_Poz4i#0] ^fala/falar<v><tv><pres><p3><sg>$
 [/OLm53e_Poz4i]
+[Og49XLeK_QB-#0] ^eisistirá/eisistir<v><tv><fut><p3><sg>$
+[/Og49XLeK_QB-]
 [PIUY4oHmbFl5#0] ^debirmos/*debirmos$
 [/PIUY4oHmbFl5]
 [Q0ItbcP6LKJj#0] ^falei/falar<v><tv><past><p1><sg>$
 [/Q0ItbcP6LKJj]
 [QU8vwMi8U80r#0] ^eisistirdes/eisistir<v><tv><fts><p2><pl>$
 [/QU8vwMi8U80r]
-[QjKWN2S8yKCM#0] ^fálan/*fálan$
-[/QjKWN2S8yKCM]
-[QkKnCUOCDqW3#0] ^dében/*dében$
-[/QkKnCUOCDqW3]
 [R0qM9n6POLsw#0] ^eisistireis/eisistir<v><tv><fut><p2><pl>$
 [/R0qM9n6POLsw]
 [SBuJm_jwletO#0] ^eisistirei/eisistir<v><tv><fut><p1><sg>$
 [/SBuJm_jwletO]
 [TvqpBWtatGyq#0] ^falares/falar<v><tv><fts><p2><sg>$
 [/TvqpBWtatGyq]
+[VUMcemmXu-y7#0] ^eisísten/*eisísten$
+[/VUMcemmXu-y7]
 [W6JZcJKpudv4#0] ^deberei/deber<v><tv><fut><p1><sg>$
 [/W6JZcJKpudv4]
 [W9n7EVJAskRL#0] ^deberemos/deber<v><tv><fut><p1><pl>$
 [/W9n7EVJAskRL]
-[WTRAUC_Rddm0#0] ^falórun/*falórun$
-[/WTRAUC_Rddm0]
+[WWYjOZ1HKsnc#0] ^falará/falar<v><tv><fut><p3><sg>$
+[/WWYjOZ1HKsnc]
+[Wa1k3_MS53Av#0] ^falarás/falar<v><tv><fut><p2><sg>$
+[/Wa1k3_MS53Av]
 [XlDs4IpkYpgy#0] ^debir/*debir$
 [/XlDs4IpkYpgy]
-[XvXZwq7mQJaR#0] ^debíren/*debíren$
-[/XvXZwq7mQJaR]
 [Y3-V1ygbHCx0#0] ^eisistis/eisistir<v><tv><pres><p2><pl>$
 [/Y3-V1ygbHCx0]
 [ZZijFObpRjmk#0] ^eisisto/eisistir<v><tv><pres><p1><sg>$
 [/ZZijFObpRjmk]
 [Zkig7q2b4RVc#0] ^falestes/falar<v><tv><past><p2><pl>$
 [/Zkig7q2b4RVc]
-[_Co1BV9hhzlj#0] ^deberás/*deberás$
-[/_Co1BV9hhzlj]
+[ZyRldWp2VSqG#0] ^dében/*dében$
+[/ZyRldWp2VSqG]
 [_IfvQWRIoEJG#0] ^eisistirmos/eisistir<v><tv><fts><p1><pl>$
 [/_IfvQWRIoEJG]
 [_j2DyXy6bTFn#0] ^eisistiran/eisistir<v><tv><fut><p3><pl>$
@@ -90,14 +90,14 @@
 [/c9fLPNHlWsJX]
 [eYAbFo2v7kut#0] ^falarmos/falar<v><tv><fts><p1><pl>$
 [/eYAbFo2v7kut]
+[gCzc9GHo0XmH#0] ^deberá/deber<v><tv><fut><p3><sg>$
+[/gCzc9GHo0XmH]
 [gtHkoOxcXuKR#0] ^falareis/falar<v><tv><fut><p2><pl>$
 [/gtHkoOxcXuKR]
 [hd1eJLnsBp53#0] ^debereis/deber<v><tv><fut><p2><pl>$
 [/hd1eJLnsBp53]
 [jMiIYtiCPNb2#0] ^falaremos/falar<v><tv><fut><p1><pl>$
 [/jMiIYtiCPNb2]
-[jXEppP3OZGx1#0] ^eisistíren/*eisistíren$
-[/jXEppP3OZGx1]
 [jqzDAuGC3unl#0] ^deberan/deber<v><tv><fut><p3><pl>$
 [/jqzDAuGC3unl]
 [lqJdZHdT_Z2w#0] ^debes/deber<v><tv><pres><p2><sg>$
@@ -106,10 +106,10 @@
 [/nXJT0Dn2ST2L]
 [oFBhh1ZIGEon#0] ^eisistiu/eisistir<v><tv><past><p3><sg>$
 [/oFBhh1ZIGEon]
-[oOpe0LI6dfhv#0] ^eisísten/*eisísten$
-[/oOpe0LI6dfhv]
 [og0TFAThPhK6#0] ^eisististes/eisistir<v><tv><past><p2><pl>$
 [/og0TFAThPhK6]
+[poxponyhoI32#0] ^faláren/falar<v><tv><fts><p3><pl>$
+[/poxponyhoI32]
 [q2q-Rv8lzsTA#0] ^eisistires/eisistir<v><tv><fts><p2><sg>$
 [/q2q-Rv8lzsTA]
 [qIC8BxrBqxHC#0] ^falar/falar<v><tv>/falar<v><tv><fts><p1><sg>/falar<v><tv><fts><p3><sg>$
@@ -128,8 +128,8 @@
 [/t7fqQfNldAIC]
 [tLvJDwzec6Gj#0] ^debemos/deber<v><tv><pres><p1><pl>$
 [/tLvJDwzec6Gj]
-[u6LieUMG5acr#0] ^faláren/*faláren$
-[/u6LieUMG5acr]
+[tNpBq1RDJvRL#0] ^debíren/*debíren$
+[/tNpBq1RDJvRL]
 [xy4ccoz_7fUB#0] ^falas/falar<v><tv><pres><p2><sg>$
 [/xy4ccoz_7fUB]
 [zFenGh8WsRJz#0] ^debiste/deber<v><tv><past><p2><sg>$

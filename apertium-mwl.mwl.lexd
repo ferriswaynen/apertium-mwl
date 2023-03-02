@@ -55,7 +55,7 @@
 PATTERNS
 ## Inflection patterns
 (NounRoot RegNounInfl)[^[M,F]]
-(AdjRoot[MF] RegAdjInfl[MF])
+(AdjRoot RegAdjInfl)[^[M,F]]
 (AdvRoot RegAdvInfl)
 (PrnRoot)
 # Make infinitives
@@ -78,8 +78,10 @@ LEXICON RegNounInfl
 <n><f><pl>:>{e}s[F]
 
 LEXICON RegAdjInfl
-<adj><mf><sg>:[MF]
-<adj><mf><pl>:>s[MF]
+<adj><m><sg>:[M]
+<adj><f><sg>:[F]
+<adj><m><pl>:>s[M]
+<adj><f><pl>:>s[F]
 
 LEXICON RegAdvInfl
 <adv>:
@@ -201,9 +203,12 @@ nino:nino[M]
 LEXICON AdjRoot
 
 # An adjective
-buono:buon{O}[MF]
-negro:negr{O}[MF]
-rápido:rápid{O}[MF]
+buono:buono[M]
+buono:buona[F]
+negro:negro[M]
+negro:negra[F]
+rápido:rápido[M]
+rápido:rápida[F]
 
 LEXICON AdvRoot
 

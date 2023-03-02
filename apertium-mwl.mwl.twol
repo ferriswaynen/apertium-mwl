@@ -1,18 +1,22 @@
 Alphabet
- A Á B C Ç D E É Ê F G H I Í J K L M N O Ó Ô P R S T Ú Ũ Ü W Y Z
- a á b c ç d e é ê f g h i í j k l m n o ó ô p r s t u ú ũ w y z
+ A Á B C Ç D E É Ê F G H I Í J K L M N O Ó Ô P Q R S T Ú Ũ Ü W X Y Z
+ a á b c ç d e é ê f g h i í j k l m n o ó ô p q r s t u ú ũ w x y z
  %{A%}:a %>:0  
  %{e%}:0 %{e%}:e 
  %{Ç%}:ç %{Ç%}:z
  %{O%}:o %{O%}:a
  %{subj%}:0 %:>0
  %{accent%}:́  %{accent%}:0
+ %{ps%}:s %:>0
  ;
 
 Sets
 
 Vowel = A Á E É Ê I Í O Ó Ô U Ú Ũ 
         a á e é ê i í o ó ô u ú ũ ;
+
+Consonant = B C Ç D F G H J K L M N P Q R S T V W X Y Z
+            b c ç d f g h j k l m n p q r s t v w x y z ;
 
 Rules
 
@@ -22,6 +26,11 @@ i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
 "Realize accent"
  %{accent%}:́  <=> Vowel _ r %{subj%}: ;
 
+"realise {e} as e after morpheme-final consonant and before plural suffix"
+%{e%}:e <=> :Consonant %>: _ s .#. ;
+
+"realise ç as ç before word boundary"
+%{Ç%}:ç <=> _ .#. ;
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
