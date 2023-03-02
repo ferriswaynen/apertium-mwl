@@ -1,8 +1,8 @@
-[05JklBQyjtE7#0] ^manhana/manhana<adv>$
+[05JklBQyjtE7#0] ^manhana/*manhana$
 [/05JklBQyjtE7]
-[0MgcWzm2Cz7e#0] ^lhougo/lhougo<adv>$
+[0MgcWzm2Cz7e#0] ^lhougo/*lhougo$
 [/0MgcWzm2Cz7e]
-[uU6lVjV8XHa2#0] ^frequentemente/frequentemente<adv>$
+[uU6lVjV8XHa2#0] ^frequentemente/*frequentemente$
 [/uU6lVjV8XHa2]
-[yKOyGRaz-QY6#0] ^lougo/lhougo<adv>$
+[yKOyGRaz-QY6#0] ^lougo/*lougo$
 [/yKOyGRaz-QY6]
