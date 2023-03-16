@@ -65,6 +65,8 @@ PATTERNS
 (V-Stem Infin V-SimpleFutureIndicative)[^[AR,ER,IR]]
 (V-Stem Infin V-SimpleFutureSubjunctive)[^[AR,ER,IR]]
 (Preposition)
+(Determiner)
+(Verb)
 
 Number
 Punctuation
@@ -179,6 +181,21 @@ LEXICON V-SimpleFutureSubjunctive
 
 LEXICON Preposition
 de<pr>:de
+para<pr>:para
+por<pr>:por
+cun<pr>:cun
+
+LEXICON Determiner
+un<det><ind><m><sg>:un
+un<det><ind><f><sg>:ua
+l<det><def><m><sg>:l
+l<det><def><f><sg>:la
+
+LEXICON Verb
+tener<pres><p3><sg>:ten
+deber<inf>:deber
+bibir<inf>:bibir
+ser<pres><p3><sg>:ye
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -199,6 +216,8 @@ papel:papel[M]
 beç:be{Ç}[M]
 paíç:paí{Ç}[M]
 nino:nino[M]
+deber:deber[M]
+lhéngua:lhéngua[F]
 
 LEXICON AdjRoot
 
@@ -209,6 +228,8 @@ negro:negro[M]
 negro:negra[F]
 rápido:rápido[M]
 rápido:rápida[F]
+chinés:chinesa[F]
+cunciso:cuncisa[F]
 
 LEXICON AdvRoot
 
@@ -217,6 +238,8 @@ frequentemente:frequentemente
 manhana:manhana
 lhougo:lhougo
 lhougo:lougo #Dir/LR
+plenamente:plenamente
+mui:mui
 
 LEXICON PrnRoot
 
