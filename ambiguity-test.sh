@@ -6,5 +6,5 @@ ANALYSES=`apertium-destxt ${CORPUS} | lt-proc ${MORPH} | apertium-retxt | sed 's
 DISAMB=`apertium-destxt ${CORPUS} | lt-proc ${MORPH} | cg-proc ${RLX} | apertium-retxt | sed 's/$\W*\^/$\n^/g' | cut -f2- -d'/' | sed 's/\//\n/g' | wc -l`
 AMBIGPRE=`calc $ANALYSES/$TOKENS`
 AMBIGPOST=`calc $DISAMB/$TOKENS`
-echo "Ambiguity before disambiguation: ${AMBIGPRE}"
-echo "Ambiguity after disambiguation: ${AMBIGPOST}"
+echo "Ambiguity before disambiguation: ${AMBIGPRE} (${ANALYSES}/${TOKENS})"
+echo "Ambiguity after disambiguation: ${AMBIGPOST}  (${DISAMB}/${TOKENS})"
