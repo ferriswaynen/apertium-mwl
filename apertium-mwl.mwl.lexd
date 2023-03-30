@@ -56,18 +56,19 @@ PATTERNS
 ## Inflection patterns
 (NounRoot RegNounInfl)[^[M,F]]
 (AdjRoot RegAdjInfl)[^[M,F]]
-(AdvRoot RegAdvInfl)
-(PrnRoot)
+AdvRoot RegAdvInfl
+PrnRoot
 # Make infinitives
 (V-Stem Infin)[^[AR,ER,IR]]
 (V-Stem V-SimplePresentIndicative)[^[AR,ER,IR]]
 (V-Stem V-SimplePastIndicative)[^[AR,ER,IR]]
 (V-Stem Infin V-SimpleFutureIndicative)[^[AR,ER,IR]]
 (V-Stem Infin V-SimpleFutureSubjunctive)[^[AR,ER,IR]]
-(Preposition)
-(Determiner)
-(Verb)
-
+Preposition
+Determiner
+Verb
+Conjunction
+Contraction
 Number
 Punctuation
 
@@ -183,6 +184,7 @@ LEXICON Preposition
 de<pr>:de
 de>pr>:d' #Dir/LR
 para<pr>:para
+para<pr>:pa #Dir/LR
 por<pr>:por
 cun<pr>:cun
 antes<pr>:antes
@@ -196,6 +198,7 @@ LEXICON Determiner
 un<det><ind><m><sg>:un
 un<det><ind><f><sg>:ua
 l<det><def><m><sg>:l
+l<det><def><m><pl>:ls
 l<det><def><f><sg>:la
 l<det><def><f><pl>:las
 
@@ -219,13 +222,12 @@ LEXICON Conjunction
 i<cnjcoo>:i
 que<cnjsub>:que
 
-LEXICON Abbreviation
-pulas<abbr>:pulas
-dua<abbr>:dua
-pa<abbr>:pa
-als<abbr>:als
-desso<abbr>:desso
-nas<abbr>:nas
+LEXICON Contraction
+por<pr>+l<det><def><f><pl>:pulas
+de<pr>+un<det><ind><f><sg>:dua
+a<pr>+l<det><def><m><pl>:als
+de<pr>+esto<prn><dem><m><sg>:desso
+an<pr>+l<det><def><f><pl>:nas
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -346,6 +348,7 @@ plenamente:plenamente
 mui:mui
 tamien:tamien
 assi:assi
+assi\i\todo:assi\i\todo
 nun:nun
 alhá:alhá
 cumo:cumo
