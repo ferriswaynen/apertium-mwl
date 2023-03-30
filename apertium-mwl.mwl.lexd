@@ -181,21 +181,51 @@ LEXICON V-SimpleFutureSubjunctive
 
 LEXICON Preposition
 de<pr>:de
+de>pr>:d' #Dir/LR
 para<pr>:para
 por<pr>:por
 cun<pr>:cun
+antes<pr>:antes
+depuis<pr>:depuis
+an<pr>:an
+até<pr>:até
+contra<pr>:contra
+antre<pr>:antre
 
 LEXICON Determiner
 un<det><ind><m><sg>:un
 un<det><ind><f><sg>:ua
 l<det><def><m><sg>:l
 l<det><def><f><sg>:la
+l<det><def><f><pl>:las
 
 LEXICON Verb
 tener<pres><p3><sg>:ten
 deber<inf>:deber
 bibir<inf>:bibir
 ser<pres><p3><sg>:ye
+chamar<pres><p3><sg>:chama
+aplicar<pres><p3><sg>:aplica
+nutrir<inf>:nutrir
+ser<prs><p3><pl>:seian
+digerir<inf>:digerir
+cumprir<pres><p3><sg>:cumpre
+porteger<inf>:porteger
+cuntribuir<pres><p3><sg>:cuntribui
+regular<ger>:regulando
+
+LEXICON Conjunction
+ó<cnjcoo>:ó
+i<cnjcoo>:i
+que<cnjsub>:que
+
+LEXICON Abbreviation
+pulas<abbr>:pulas
+dua<abbr>:dua
+pa<abbr>:pa
+als<abbr>:als
+desso<abbr>:desso
+nas<abbr>:nas
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -218,6 +248,58 @@ paíç:paí{Ç}[M]
 nino:nino[M]
 deber:deber[M]
 lhéngua:lhéngua[F]
+lheite:lheite[M]
+lheite:leite[M] #Dir/LR
+secreçon:secreçon[F]
+quelor:quelor[M]
+glándula:glándula[F]
+fémea:fémea[F]
+mamífero:mamífero[M]
+lhíquido:lhíquido[M]
+célula:célula[F]
+mama:mama[F]
+die:die[F]
+parto:parto[M]
+colostro:colostro[M]
+spece:spece[F]
+mamilo:mamilo[M]
+suco:suco[M]
+planta:planta[F]
+fruito:fruito[M]
+coco:coco[M]
+soja:soja[F]
+arroç:arroç[M]
+almendra:almendra[F]
+todo:todo[M]
+defeniçon:defeniçon[F]
+termo:termo[M]
+nuoç:nuoç[M]
+funçon:funçon[F]
+filhote:filhote[M]
+quemido:quemido[M]
+trato:trato[M]
+crio:cria[F]
+antígeno:antígeno[M]
+toxina:toxina[F]
+anflamaçon:anflamaçon[F]
+salude:salude[F]
+porcesso:porcesso[M]
+oubtençon:oubtençon[F]
+einergie:einergie[F]
+base:base[F]
+lhaticínio:lhaticínio[M]
+manteiga:manteiga[F]
+queiso:queiso[M]
+eiagurte:eiagurte[M]
+outro:outro[M]
+uso:uso[M]
+deribado:deribado[M]
+andústria:andústria[F]
+perduto:perduto[M]
+pó:pó[M]
+soro:soro[M]
+caseína:caseína[F]
+lhatose:lhatose[F]
 
 LEXICON AdjRoot
 
@@ -230,6 +312,28 @@ rápido:rápido[M]
 rápido:rápida[F]
 chinés:chinesa[F]
 cunciso:cuncisa[F]
+nutritibo:nutritiba[F]
+sbranquiçado:sbranquiçada[F]
+oupaco:oupaca[F]
+porduzido:porduzida[F]
+mamário:mamária[F]
+secretor:secretora[F]
+lháteo:lhátea[F]
+dous:dues[F]
+cada:cada[MF]
+cierto:cierta[F]
+científico:científica[F]
+percipal:percipal[F]
+capaç:capaç[M]
+outro:outro[M]
+gastroantestinal:gastroantestinal[M]
+metabólico:metabólica[F]
+numeroso:numeroso[M]
+frequente:frequente[M]
+alimentício:alimentícia[F]
+químico:química[F]
+farmacéutico:farmacéutica[F]
+cundensado:cundensado[M]
 
 LEXICON AdvRoot
 
@@ -240,6 +344,11 @@ lhougo:lhougo
 lhougo:lougo #Dir/LR
 plenamente:plenamente
 mui:mui
+tamien:tamien
+assi:assi
+nun:nun
+alhá:alhá
+cumo:cumo
 
 LEXICON PrnRoot
 
@@ -269,6 +378,7 @@ nós<prn><pers><p1><pl><obj>:nos
 bós<prn><pers><p2><pl><obj>:bos
 eilhes<prn><pers><p3><m><pl><obj>:los
 eilhas<prn><pers><p3><f><pl><obj>:las
+el<prn><pers><p3><m><sg><ref>:se
 
 PATTERN Number
 Numeral+ [<num>:]
