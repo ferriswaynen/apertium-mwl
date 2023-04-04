@@ -62,11 +62,11 @@ PATTERNS
 AdvRoot RegAdvInfl
 PrnRoot
 # Make infinitives
-(V-Stem Infin)[^[AR,ER,IR]]
-(V-Stem V-SimplePresentIndicative)[^[AR,ER,IR]]
-(V-Stem V-SimplePastIndicative)[^[AR,ER,IR]]
-(V-Stem Infin V-SimpleFutureIndicative)[^[AR,ER,IR]]
-(V-Stem Infin V-SimpleFutureSubjunctive)[^[AR,ER,IR]]
+(V-Stem [<vblex>:] Infin)[^[AR,ER,IR]]
+(V-Stem [<vblex>:] V-SimplePresentIndicative)[^[AR,ER,IR]]
+(V-Stem [<vblex>:] V-SimplePastIndicative)[^[AR,ER,IR]]
+(V-Stem [<vblex>:] Infin V-SimpleFutureIndicative)[^[AR,ER,IR]]
+(V-Stem [<vblex>:] Infin V-SimpleFutureSubjunctive)[^[AR,ER,IR]]
 Preposition
 Determiner
 Verb
