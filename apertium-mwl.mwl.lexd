@@ -7,6 +7,7 @@
 # <num>    # Numeral
 # <adv>    # Adverb
 # <prn>    # Pronoun
+# <pro>
 # <gend>   # Gender
 
 # <sent>   # Sentence-ending punctuation
@@ -38,6 +39,8 @@
 # <p2>     # Second person
 # <p3>     # Third person
 # <inf>    # Infinitive
+# <vblex>
+# <vbser>
 
 # Pronoun morphology
 # <pers>   # Personal
@@ -203,19 +206,19 @@ l<det><def><f><sg>:la
 l<det><def><f><pl>:las
 
 LEXICON Verb
-tener<pres><p3><sg>:ten
-deber<inf>:deber
-bibir<inf>:bibir
-ser<pres><p3><sg>:ye
-chamar<pres><p3><sg>:chama
-aplicar<pres><p3><sg>:aplica
-nutrir<inf>:nutrir
-ser<prs><p3><pl>:seian
-digerir<inf>:digerir
-cumprir<pres><p3><sg>:cumpre
-porteger<inf>:porteger
-cuntribuir<pres><p3><sg>:cuntribui
-regular<ger>:regulando
+tener<vblex><pres><p3><sg>:ten
+deber<vblex><inf>:deber
+bibir<vblex><inf>:bibir
+ser<vbser><pres><p3><sg>:ye
+chamar<vblex><pres><p3><sg>:chama
+aplicar<vblex><pres><p3><sg>:aplica
+nutrir<vblex><inf>:nutrir
+ser<vbser><prs><p3><pl>:seian
+digerir<vblex><inf>:digerir
+cumprir<vblex><pres><p3><sg>:cumpre
+porteger<vblex><inf>:porteger
+cuntribuir<vblex><pres><p3><sg>:cuntribui
+regular<vblex><ger>:regulando
 
 LEXICON Conjunction
 ó<cnjcoo>:ó
@@ -329,7 +332,7 @@ científico:científica[F]
 percipal:percipal[F]
 capaç:capaç[M]
 outro:outro[M]
-gastroantestinal:gastroantestinal[M]
+gastroantestinal:gastroantestinal[MF]
 metabólico:metabólica[F]
 numeroso:numeroso[M]
 frequente:frequente[M]
@@ -382,7 +385,7 @@ nós<prn><pers><p1><pl><obj>:nos
 bós<prn><pers><p2><pl><obj>:bos
 eilhes<prn><pers><p3><m><pl><obj>:los
 eilhas<prn><pers><p3><f><pl><obj>:las
-el<prn><pers><p3><m><sg><ref>:se
+el<prn><pro><ref><p3><m><sg>:se
 
 PATTERN Number
 Numeral+ [<num>:]
