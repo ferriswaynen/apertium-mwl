@@ -9,6 +9,7 @@
 # <prn>    # Pronoun
 # <pro>
 # <gend>   # Gender
+# <ij>     # Interjection
 
 # <sent>   # Sentence-ending punctuation
 # <guio>   # Hyphen
@@ -60,6 +61,7 @@ PATTERNS
 (NounRoot RegNounInfl)[^[M,F]]
 (AdjRoot RegAdjInfl)[^[M,F]]
 AdvRoot RegAdvInfl
+IjRoot RegIjInfl
 PrnRoot
 # Make infinitives
 (V-Stem [<vblex>:] Infin)[^[AR,ER,IR]]
@@ -91,6 +93,9 @@ LEXICON RegAdjInfl
 
 LEXICON RegAdvInfl
 <adv>:
+
+LEXICON RegIjInfl
+<ij>:
 
 LEXICON V-Stem
 falar:fal[AR]
@@ -356,7 +361,6 @@ assi\i\todo:assi\i\todo
 nun:nun
 alhá:alhá
 cumo:cumo
-nó:nó
 
 LEXICON PrnRoot
 
@@ -387,6 +391,9 @@ bós<prn><pers><p2><pl><obj>:bos
 eilhes<prn><pers><p3><m><pl><obj>:los
 eilhas<prn><pers><p3><f><pl><obj>:las
 el<prn><pro><ref><p3><m><sg>:se
+
+LEXICON IjRoot
+nó:nó
 
 PATTERN Number
 Numeral+ [<num>:]
