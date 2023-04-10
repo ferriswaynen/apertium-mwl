@@ -278,7 +278,7 @@ planta:planta[F]
 fruito:fruito[M]
 coco:coco[M]
 soja:soja[F]
-arroç:arroç[M]
+arroç:arro{Ç}[M]
 almendra:almendra[F]
 todo:todo[M]
 defeniçon:defeniçon[F]
@@ -310,6 +310,7 @@ pó:pó[M]
 soro:soro[M]
 caseína:caseína[F]
 lhatose:lhatose[F]
+cacho:cacho[M]
 
 LEXICON AdjRoot
 
