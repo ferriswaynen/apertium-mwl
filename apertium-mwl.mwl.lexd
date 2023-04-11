@@ -209,6 +209,7 @@ an<pr>:an
 até<pr>:até
 contra<pr>:contra
 antre<pr>:antre
+a<pr>:a
 
 LEXICON Determiner
 un<det><ind><m><sg>:un
@@ -311,6 +312,14 @@ soro:soro[M]
 caseína:caseína[F]
 lhatose:lhatose[F]
 cacho:cacho[M]
+moço:moço[M]
+pessona:pessona[F]
+adolescente:adolescente[M]
+bolonhesa:bolonhesa[F]
+carbonara:carbonara[F]
+pesto:pesto[M]
+massa:massa[F]
+pasta:pasta[F]
 
 LEXICON AdjRoot
 
