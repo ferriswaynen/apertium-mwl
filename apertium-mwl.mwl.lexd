@@ -69,6 +69,7 @@ PrnRoot
 (V-Stem [<vblex>:] V-SimplePastIndicative)[^[AR,ER,IR]]
 (V-Stem [<vblex>:] Infin V-SimpleFutureIndicative)[^[AR,ER,IR]]
 (V-Stem [<vblex>:] Infin V-SimpleFutureSubjunctive)[^[AR,ER,IR]]
+(V-Stem [<vblex>:] Infin V-Conditional)[^[AR,ER,IR]]
 Preposition
 Determiner
 Irregular-Verb
@@ -195,6 +196,26 @@ LEXICON V-SimpleFutureSubjunctive
 <fts><p1><pl>:mos[IR]
 <fts><p2><pl>:des[IR]
 <fts><p3><pl>:{subj}en[IR]
+
+LEXICON V-Conditional
+<cni><p1><sg>:[AR]
+<cni><p2><sg>:es[AR]
+<cni><p3><sg>:[AR]
+<cni><p1><pl>:mos[AR]
+<cni><p2><pl>:des[AR]
+<cni><p3><pl>:{subj}en[AR]
+<cni><p1><sg>:[ER]
+<cni><p2><sg>:es[ER]
+<cni><p3><sg>:[ER]
+<cni><p1><pl>:mos[ER]
+<cni><p2><pl>:des[ER]
+<cni><p3><pl>:{subj}en[ER]
+<cni><p1><sg>:[IR]
+<cni><p2><sg>:es[IR]
+<cni><p3><sg>:[IR]
+<cni><p1><pl>:mos[IR]
+<cni><p2><pl>:des[IR]
+<cni><p3><pl>:{subj}en[IR]
 
 LEXICON Preposition
 de<pr>:de
