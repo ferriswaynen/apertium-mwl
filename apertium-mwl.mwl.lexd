@@ -64,7 +64,7 @@ AdvRoot RegAdvInfl
 IjRoot RegIjInfl
 PrnRoot
 # Make infinitives
-(V-Stem [<vblex>:] Infin)[^[AR,ER,IR]]
+(V-Stem [<vblex><inf>:] Infin)[^[AR,ER,IR]]
 (V-Stem [<vblex>:] V-SimplePresentIndicative)[^[AR,ER,IR]]
 (V-Stem [<vblex>:] V-SimplePastIndicative)[^[AR,ER,IR]]
 (V-Stem [<vblex>:] Infin V-SimpleFutureIndicative)[^[AR,ER,IR]]
