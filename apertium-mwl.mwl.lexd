@@ -253,11 +253,17 @@ i<cnjcoo>:i
 que<cnjsub>:que
 
 LEXICON Contraction
+por<pr>+l<det><def><f><sg>:pula
 por<pr>+l<det><def><f><pl>:pulas
 de<pr>+un<det><ind><f><sg>:dua
+de<pr>+un<det><ind><f><pl>:duas
+a<pr>+l<det><def><m><sg>:al
 a<pr>+l<det><def><m><pl>:als
 de<pr>+esto<prn><dem><m><sg>:desso
+an<pr>+l<det><def><f><sg>:na
 an<pr>+l<det><def><f><pl>:nas
+cun<pr>+l<det><def><f><sg>:cula
+cun<pr>+l<det><def><f><pl>:culas
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
