@@ -24,6 +24,7 @@
 # Number morphology
 # <pl>     # Plural
 # <sg>     # Singular
+# <sp>     # Sing and Plur
 
 # Gender morphology
 # <m>      # Masculine
