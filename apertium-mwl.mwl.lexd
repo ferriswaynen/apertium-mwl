@@ -70,6 +70,8 @@ PrnRoot
 (V-Stem [<vblex>:] Infin V-SimpleFutureIndicative)[^[AR,ER,IR]]
 (V-Stem [<vblex>:] Infin V-SimpleFutureSubjunctive)[^[AR,ER,IR]]
 (V-Stem [<vblex>:] Infin V-Conditional)[^[AR,ER,IR]]
+(V-Stem [<vblex>:] V-Gerund)[^[AR,ER,IR]]
+
 Preposition
 Determiner
 Irregular-Verb
@@ -217,6 +219,11 @@ LEXICON V-Conditional
 <cni><p2><pl>:iedes[IR]
 <cni><p3><pl>:ien[IR]
 
+LEXICON V-Gerund
+<ger>:ando[AR]
+<ger>:endo[ER]
+<ger>:indo[IR]
+
 LEXICON Preposition
 de<pr>:de
 de>pr>:d' #Dir/LR
@@ -241,6 +248,7 @@ l<det><def><f><sg>:la
 l<det><def><f><pl>:las
 
 LEXICON Irregular-Verb
+cuntribuir<vblex><inf>:cuntribuir
 cuntribuir<vblex><pri><p3><sg>:cuntribui
 tener<vblex><pri><p3><sg>:ten
 ser<vbser><pri><p3><sg>:ye
