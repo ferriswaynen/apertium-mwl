@@ -25,6 +25,7 @@
 # <pl>     # Plural
 # <sg>     # Singular
 # <sp>     # Sing and Plur
+# <numw>    # Number Word
 
 # Gender morphology
 # <m>      # Masculine
@@ -76,10 +77,10 @@ PrnRoot
 Preposition
 Determiner
 Irregular-Verb
-Irregular-Adj
 Conjunction
 Contraction
 Number
+NumberWord
 Punctuation
 
 
@@ -120,7 +121,6 @@ LEXICON Infin
 :a{accent}r[AR]
 :e{accent}r[ER]
 :i{accent}r[IR]
-
 
 LEXICON V-SimplePresentIndicative
 <pri><p1><sg>:o[AR]
@@ -269,9 +269,9 @@ an<pr>+l<det><def><f><pl>:nas
 cun<pr>+l<det><def><f><sg>:cula
 cun<pr>+l<det><def><f><pl>:culas
 
-LEXICON Irregular-Adj
-dous<adj><m><sp>:dous
-dous<adj><f><sp>:dues
+LEXICON NumberWord
+dous<numw><m><sp>:dous
+dous<numw><f><sp>:dues
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
