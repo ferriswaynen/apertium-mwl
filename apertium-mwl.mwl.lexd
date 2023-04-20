@@ -273,6 +273,10 @@ an<pr>+l<det><def><f><pl>:nas
 cun<pr>+l<det><def><f><sg>:cula
 cun<pr>+l<det><def><f><pl>:culas
 
+LEXICON Irregular-adj
+dous<adj><m><sp>:dous
+dous<adj><f><sp>:dues
+
 ###############################################################################
 ###                          L E X I C O N                                  ###
 ###############################################################################
@@ -385,8 +389,6 @@ secretor:secretor[M]
 secretor:secretora[F]
 lháteo:lháteo[M]
 lháteo:lhátea[F]
-dous:dous[m]
-dous:dues[F]
 cada:cada[MF]
 cierto:cierto[M]
 cierto:cierta[F]
