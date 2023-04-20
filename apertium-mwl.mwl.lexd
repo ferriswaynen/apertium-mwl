@@ -75,6 +75,7 @@ PrnRoot
 Preposition
 Determiner
 Irregular-Verb
+Irregular-Adj
 Conjunction
 Contraction
 Number
@@ -112,6 +113,7 @@ aplicar:aplic[AR]
 nutrir:nutr[IR]
 cumprir:cumpr[IR]
 porteger:porteg[ER]
+regular:regul[AR]
 
 LEXICON Infin
 :a{accent}r[AR]
@@ -125,13 +127,7 @@ LEXICON V-SimplePresentIndicative
 <pri><p3><sg>:a[AR]
 <pri><p1><pl>:amos[AR]
 <pri><p2><pl>:ais[AR]
-<pri><p3><pl>:an[AR]
-<pri><p1><sg>:o[ER]
-<pri><p2><sg>:es[ER]
-<pri><p3><sg>:e[ER]
-<pri><p1><pl>:emos[ER]
-<pri><p2><pl>:eis[ER]
-<pri><p3><pl>:en[ER]
+
 <pri><p1><sg>:o[IR]
 <pri><p2><sg>:es[IR]
 <pri><p3><sg>:e[IR]
@@ -252,8 +248,7 @@ cuntribuir<vblex><inf>:cuntribuir
 cuntribuir<vblex><pri><p3><sg>:cuntribui
 tener<vblex><pri><p3><sg>:ten
 ser<vbser><pri><p3><sg>:ye
-ser<vbser><prs><p3><pl>:séian
-regular<vblex><ger>:regulando
+ser<vbser><prs><p3<pl>:séian
 
 LEXICON Conjunction
 ó<cnjcoo>:ó
@@ -273,7 +268,7 @@ an<pr>+l<det><def><f><pl>:nas
 cun<pr>+l<det><def><f><sg>:cula
 cun<pr>+l<det><def><f><pl>:culas
 
-LEXICON Irregular-adj
+LEXICON Irregular-Adj
 dous<adj><m><sp>:dous
 dous<adj><f><sp>:dues
 
