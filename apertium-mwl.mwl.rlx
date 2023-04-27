@@ -9,6 +9,11 @@ LIST NOUN = n;
 LIST DET = det;
 LIST OBJECT = obj;
 LIST PRN = prn;
+LIST VERBSER = vbser;
+LIST VERB = vblex;
+LIST FIRSTPRN = (prn pers p1 sg subj);
+LIST FIRSTFTS = (fts p1 sg);
+LIST FIRSTCNI = (cni p1 sg);
 
 SECTION
 # If there is a singular noun to the right, I cannot be a verb or noun.
@@ -28,6 +33,24 @@ SELECT NOUN IF
 SELECT DET IF
     (0 PRN)
     (1 NOUN) ;
+
+# If "sou" precedes a masculine singular noun, it functions as a masculine singular pronoun.
+
+SELECT PRN IF
+    (0 VERBSER)
+    (1 NOUN) ;
+
+# If a future subjunctive verb is preceded by "you," it functions as a first person singular future subjunctive verb form.
+
+SELECT FIRSTFTS IF
+    (-1 FIRSTPRN)
+    (0 VERB) ;
+
+# If a conditional verb is preceded by "you," it functions as a first person singular conditional verb form.
+
+SELECT FIRSTCNI IF
+    (-1 FIRSTPRN)
+    (0 VERB) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
