@@ -50,6 +50,7 @@
 # <subj>   # Subjective
 # <pos>    # Possessive
 # <obj>    # Object
+# <ido>    # Indirect object
 
 # Other symbols
 # >        # Morpheme boundary
@@ -69,6 +70,9 @@ PrnRoot
 (V-Stem [<vblex><inf>:] Infin)[^[AR,ER,IR]]
 (V-Stem [<vblex>:] V-SimplePresentIndicative)[^[AR,ER,IR]]
 (V-Stem [<vblex>:] V-SimplePastIndicative)[^[AR,ER,IR]]
+(V-Stem [<vblex>:] V-ImperfectIndicative)[^[AR,ER,IR]]
+(V-Stem [<vblex>:] V-PluperfectIndicative)[^[AR,ER,IR]]
+(V-Stem [<vblex>:] V-ImperfectSubjunctive)[^[AR,ER,IR]]
 (V-Stem [<vblex>:] Infin V-SimpleFutureIndicative)[^[AR,ER,IR]]
 (V-Stem [<vblex>:] Infin V-SimpleFutureSubjunctive)[^[AR,ER,IR]]
 (V-Stem [<vblex>:] Infin V-Conditional)[^[AR,ER,IR]]
@@ -156,6 +160,46 @@ LEXICON V-SimplePastIndicative
 <past><p2><pl>:istes[IR]
 <past><p3><pl>:írun[IR]
 
+LEXICON V-ImperfectIndicative
+<pii><p1><sg>:aba[AR]
+<pii><p2><sg>:abas[AR]
+<pii><p3><sg>:aba[AR]
+<pii><p1><pl>:ábamos[AR]
+<pii><p2><pl>:ábades[AR]
+<pii><p3><pl>:ában[AR]
+<pii><p1><sg>:ie[ER]
+<pii><p2><sg>:ies[ER]
+<pii><p3><sg>:ie[ER]
+<pii><p1><pl>:iamos[ER]
+<pii><p2><pl>:iedes[ER]
+<pii><p3><pl>:ien[ER]
+<pii><p1><sg>:ie[IR]
+<pii><p2><sg>:ies[IR]
+<pii><p3><sg>:ie[IR]
+<pii><p1><pl>:iemos[IR]
+<pii><p2><pl>:iedes[IR]
+<pii><p3><pl>:ien[IR]
+
+LEXICON V-PluperfectIndicative
+<pmp><p1><sg>:ara[AR]
+<pmp><p2><sg>:aras[AR]
+<pmp><p3><sg>:ara[AR]
+<pmp><p1><pl>:áramos[AR]
+<pmp><p2><pl>:árades[AR]
+<pmp><p3><pl>:áran[AR]
+<pmp><p1><sg>:ira[ER]
+<pmp><p2><sg>:iras[ER]
+<pmp><p3><sg>:ira[ER]
+<pmp><p1><pl>:íramos[ER]
+<pmp><p2><pl>:írades[ER]
+<pmp><p3><pl>:íran[ER]
+<pmp><p1><sg>:ira[IR]
+<pmp><p2><sg>:iras[IR]
+<pmp><p3><sg>:ira[IR]
+<pmp><p1><pl>:íramos[IR]
+<pmp><p2><pl>:írades[IR]
+<pmp><p3><pl>:íran[IR]
+
 LEXICON V-SimpleFutureIndicative
 <fut><p1><sg>:ei[AR]
 <fut><p2><sg>:ás[AR]
@@ -175,6 +219,26 @@ LEXICON V-SimpleFutureIndicative
 <fut><p1><pl>:emos[IR]
 <fut><p2><pl>:eis[IR]
 <fut><p3><pl>:an[IR]
+
+LEXICON V-ImperfectSubjunctive
+<pis><p1><sg>:asse[AR]
+<pis><p2><sg>:asses[AR]
+<pis><p3><sg>:asse[AR]
+<pis><p1><pl>:ássemos[AR]
+<pis><p2><pl>:ássedes[AR]
+<pis><p3><pl>:ássen[AR]
+<pis><p1><sg>:isse[ER]
+<pis><p2><sg>:isses[ER]
+<pis><p3><sg>:isse[ER]
+<pis><p1><pl>:íssemos[ER]
+<pis><p2><pl>:íssedes[ER]
+<pis><p3><pl>:íssen[ER]
+<pis><p1><sg>:isse[IR]
+<pis><p2><sg>:isses[IR]
+<pis><p3><sg>:isse[IR]
+<pis><p1><pl>:íssemos[IR]
+<pis><p2><pl>:íssedes[IR]
+<pis><p3><pl>:íssen[IR]
 
 LEXICON V-SimpleFutureSubjunctive
 <fts><p1><sg>:[AR]
@@ -451,7 +515,24 @@ nós<prn><pers><p1><pl><obj>:nos
 bós<prn><pers><p2><pl><obj>:bos
 eilhes<prn><pers><p3><m><pl><obj>:los
 eilhas<prn><pers><p3><f><pl><obj>:las
+you<prn><pro><ref><p1><sg>:me
+tu<prn><pro><ref><p2><sg>:te
 el<prn><pro><ref><p3><m><sg>:se
+eilha<prn><pro><ref><p3><f><sg>:se
+nós<prn><pro><ref><p3><pl>:mos
+bós<prn><pro><ref><p3><pl>:bos
+eilhes<prn><pro><ref><p3><m><pl>:se
+eilhas<prn><pro><ref><p3><f><pl>:se
+you<prn><pers><p1><sg><ido>:me
+tu<prn><pers><p2><sg><ido>:te
+el<prn><pers><p3><m><sg><ido>:le
+eilha<prn><pers><p3><f><sg><ido>:le
+nós<prn><pers><p1><pl><ido>:mos
+bós<prn><pers><p2><pl><ido>:bos
+eilhes<prn><pers><p3><m><pl><ido>:le
+eilhes<prn><pers><p3><m><pl><ido>:les #Dir/LR
+eilhas<prn><pers><p3><f><pl><ido>:le
+eilhas<prn><pers><p3><f><pl><ido>:les #Dir/LR
 
 LEXICON IjRoot
 nó:nó
