@@ -10,6 +10,8 @@
 # <pro>
 # <gend>   # Gender
 # <ij>     # Interjection
+# <np>     # Proper noun
+# <top>    # Toponym
 
 # <sent>   # Sentence-ending punctuation
 # <guio>   # Hyphen
@@ -86,6 +88,7 @@ Contraction
 Number
 NumberWord
 Punctuation
+NP_Symbol
 
 
 ## Example inflection lexicon:
@@ -3488,6 +3491,9 @@ contra<pr>:contra
 antre<pr>:antre
 a<pr>:a
 ne<pr>:ne
+subre<pr>:subre
+durante<pr>:durante
+zde<pr>:zde
 
 LEXICON Determiner
 un<det><ind><m><sg>:un
@@ -3504,9 +3510,14 @@ tener<vblex><pri><p3><sg>:ten
 ser<vbser><pri><p1><sg>:sou
 ser<vbser><pri><p3><sg>:ye
 ser<vbser><prs><p3><pl>:séian
-ser<vbser><past><pret><p1><sg>:fui
-ser<vbser><past><pret><p3><sg>:fui
+ser<vbser><past><p1><sg>:fui
+ser<vbser><past><p3><sg>:fui
 ser<vbser><pri><p3><pl>:son
+ser<vbser><past><p3><pl>:fúrun
+ser<vbser><ger>:sendo
+ser<vbser><pp>:sido
+estar<vblex><pii><p3><pl>:éran
+poder<vblex><pri><p3><sg>:puode
 
 LEXICON Conjunction
 ó<cnjcoo>:ó
@@ -3514,21 +3525,47 @@ i<cnjcoo>:i
 que<cnjsub>:que
 
 LEXICON Contraction
+por<pr>+l<det><def><m><sg>:pul
 por<pr>+l<det><def><f><sg>:pula
+por<pr>+l<det><def><m><pl>:puls
 por<pr>+l<det><def><f><pl>:pulas
+de<pr>+un<det><ind><m><sg>:dun
 de<pr>+un<det><ind><f><sg>:dua
+de<pr>+un<det><ind><m><pl>:duns
 de<pr>+un<det><ind><f><pl>:duas
 a<pr>+l<det><def><m><sg>:al
 a<pr>+l<det><def><m><pl>:als
 de<pr>+esto<prn><dem><m><sg>:desso
+an<pr>+un<det><ind><f><sg>:nua
+an<pr>+un<det><ind><f><pl>:nuasl
 an<pr>+l<det><def><f><sg>:na
 an<pr>+l<det><def><f><pl>:nas
+cun<pr>+l<det><def><m><sg>:cul
 cun<pr>+l<det><def><f><sg>:cula
+cun<pr>+l<det><def><m><pl>:culs
 cun<pr>+l<det><def><f><pl>:culas
 
 LEXICON NumberWord
 dous<numw><m><sp>:dous
 dous<numw><f><sp>:dues
+binte<numw><mf><p>:binte
+cien<numw><mf><p>:cien
+cinco<numw><mf><p>:cinco
+dieç<numw><mf><p>:dieç
+nuôbe<numw><mf><p>:nuôbe
+onze<numw><mf><p>:onze
+quatro<numw><mf><p>:quatro
+seis<numw><mf><p>:seis
+siete<numw><mf><p>:siete
+trinta<numw><mf><p>:trinta
+trés<numw><mf><p>:trés
+uito<numw><mf><p>:uito
+
+LEXICON NP_Symbol
+China<np><top><f><sg>:China
+Brasil<np><top><m><sg>:Brasil
+Pertual<np><top><m><sg>:Pertual
+Ouropa<np><top><f><sg>:Ouropa
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -3538,6 +3575,11 @@ dous<numw><f><sp>:dues
 LEXICON NounRoot
 
  # A noun
+
+anho:anho[M]
+seclo:seclo[M]
+region:region[F]
+tiempo:tiempo[M]
 
 coco:coco[M]
 arroç:arro{Ç}[M]
@@ -30563,6 +30605,9 @@ zínia:zínia[F]
 LEXICON AdjRoot
 
 # An adjective
+San:San[MF]
+purmeiro:purmeiro[M]
+purmeira:purmeira[F]
 buono:buono[M]
 buono:buona[F]
 negro:negro[M]
@@ -48270,6 +48315,8 @@ outonal:outonal[MF]
 outorgado:outorgado[MF]
 outorgador:outorgador[MF]
 outorgá:outorgá[MF]
+outro:outro[M]
+outra:outra[F]
 
 ouvido:ouvido[MF]
 oval:oval[MF]
@@ -54700,6 +54747,7 @@ nun:nun
 alhá:alhá
 cumo:cumo
 mais:mais
+yá:yá
 
 a.C.:a.C.
 a.m.:a.m.
