@@ -3505,6 +3505,7 @@ zde<pr>:zde
 contra<pr>:contra
 sin<pr>:sin
 atrabeç<pr>:atrabeç
+sob<pr>:sob
 
 LEXICON Determiner
 un<det><ind><m><sg>:un
@@ -3518,12 +3519,15 @@ LEXICON Irregular-verb
 cuntribuir<vblex><inf>:cuntribuir
 cuntribuir<vblex><pri><p3><sg>:cuntribui
 tener<vblex><pri><p3><sg>:ten
+tener<vblex><pri><p3><pl>:ténen
 ser<vbser><pri><p1><sg>:sou
 ser<vbser><pri><p3><sg>:ye
 ser<vbser><prs><p3><sg>:seia
 ser<vbser><prs><p3><pl>:séian
 ser<vbser><past><p1><sg>:fui
 ser<vbser><past><p3><sg>:fui
+ser<vbser><cni><p1><sg>:serie
+ser<vbser><cni><p3><sg>:serie
 ser<vbser><pri><p3><pl>:son
 ser<vbser><past><p3><pl>:fúrun
 ser<vbser><ger>:sendo
@@ -3532,6 +3536,7 @@ star<vblex><pii><p3><pl>:éran
 poder<vblex><pri><p3><sg>:puode
 poder<vblex><pri><p3><pl>:puoden
 ampeçar<vblex><pri><p1><sg>:ampeço
+ampeçar<vblex><past><p3><sg>:ampeçou
 haber<vblex><pri><p3><sg>:hai
 
 LEXICON Conjunction
@@ -3614,6 +3619,11 @@ LEXICON NounRoot
 
  # A noun
 
+serie:serie{F}
+maiorie:maiorie[F]
+ourige:ourige[F]
+política:política[F]
+muorte:muorte[F]
 fin:fin[M]
 númaro:númaro[M]
 eigreija:eigreija[F]
@@ -28708,7 +28718,7 @@ termômetro:termômetro[M]
 terneiro:terneiro[M]
 terofagie:terofagie[F]
 terpeno:terpeno[M]
-terra:terra[F]
+tierra:tierra[F]
 terradegueiro:terradegueiro[M]
 terrado:terrado[M]
 terramoto:terramoto[M]
@@ -30650,6 +30660,8 @@ zínia:zínia[F]
 LEXICON AdjRoot
 
 # An adjective
+nuobo:nuobo[M]
+nuoba:nuoba[F]
 bário:bário[M]
 bária:bária[F]
 San:San[MF]
@@ -47407,7 +47419,8 @@ mudado:mudado[MF]
 mudador:mudador[MF]
 mudá:mudá[MF]
 mugidor:mugidor[MF]
-muito:muito[MF]
+muito:muito[M]
+muita:muita[F]
 muití:muití[MF]
 mulherico:mulherico[MF]
 multado:multado[MF]
@@ -53403,7 +53416,8 @@ tocador:tocador[MF]
 tocante:tocante[MF]
 tocoló:tocoló[MF]
 tocá:tocá[MF]
-todo:todo[MF]
+todo:todo[M]
+toda:toda[F]
 togado:togado[MF]
 toireá:toireá[MF]
 toiriador:toiriador[MF]
@@ -54785,6 +54799,7 @@ zurzidor:zurzidor[MF]
 LEXICON AdvRoot
 
 # An adverb
+anquanto:anquanto
 hoije:hoije
 frequentemente:frequentemente
 manhana:manhana
@@ -58012,10 +58027,14 @@ eilhes<prn><pers><p3><m><pl><ido>:les #Dir/LR
 eilhas<prn><pers><p3><f><pl><ido>:le
 eilhas<prn><pers><p3><f><pl><ido>:les #Dir/LR
 qual<prn><itg><mf><sg>:qual
+qual<prn><itg><mf><pl>:quales
 algun<prn><tn><m><sg>:algun
 algun<prn><tn><f><sg>:alguna
 algun<prn><tn><m><pl>:alguns
-algun<prn><tn><f><pl>:algunas
+algun<prn><tn><f><pl>:alguas
+esto<prn><dem><mf><sg>:esto
+esso<prn><dem><mf><sg>:esso
+aqueilho<prn><dem><mf><sg>:aqueilho
 
 LEXICON IjRoot
 nó:nó
