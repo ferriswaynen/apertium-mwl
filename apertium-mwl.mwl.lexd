@@ -113,8 +113,8 @@ LEXICON RegNounInfl
 LEXICON RegAdjInfl
 <adj><m><sg>:[M]
 <adj><f><sg>:[F]
-<adj><m><pl>:>s[M]
-<adj><f><pl>:>s[F]
+<adj><m><pl>:>{e}s[M]
+<adj><f><pl>:>{e}s[F]
 
 LEXICON RegAdvInfl
 <adv>:
@@ -3644,7 +3644,7 @@ munecípio:munecípio[M]
 mobimiento:mobimiento[M]
 ounion:ounion[F]
 auga:auga[F]
-serie:serie{F}
+serie:serie[F]
 maiorie:maiorie[F]
 ourige:ourige[F]
 política:política[F]
