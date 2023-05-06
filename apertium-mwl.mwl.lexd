@@ -13,6 +13,8 @@
 # <np>     # Proper noun
 # <top>    # Toponym
 
+# <for>    # Foreign word
+
 # <sent>   # Sentence-ending punctuation
 # <guio>   # Hyphen
 # <cm>     # Comma
@@ -98,6 +100,8 @@ Punctuation
 NP_Symbol
 PossAdjective
 DemAdjective
+ForeignWord
+IndAdjective
 
 ## Example inflection lexicon:
 LEXICON RegNounInfl
@@ -3573,7 +3577,7 @@ binte<numw><mf><sp>:binte
 cien<numw><mf><sp>:cien
 cinco<numw><mf><sp>:cinco
 dieç<numw><mf><sp>:dieç
-nuôbe<numw><mf><sp>:nuôbe
+nuobe<numw><mf><sp>:nuobe
 onze<numw><mf><sp>:onze
 quatro<numw><mf><sp>:quatro
 seis<numw><mf><sp>:seis
@@ -3590,6 +3594,9 @@ Pertual<np><top><m><sg>:Pertual
 Ouropa<np><top><f><sg>:Ouropa
 Stados\Ounidos<np><top><m><pl>:Stados\Ounidos
 América<np><top><f><sg>:América
+África<np><top><f><sg>:África
+Almanha<np><top><f><sg>:Almanha
+Spanha<np><top><f><sg>:Spanha
 
 LEXICON PossAdjective
 sou<adj><pos><m><sg>:sou
@@ -3611,6 +3618,13 @@ aqueilhe<adj><dem><dst><f><sg>:aquielha
 aqueilhe<adj><dem><dst><m><pl>:aqueilhes
 aqueilhe<adj><dem><dst><f><pl>:aquielhas
 
+LEXICON IndAdjective
+qualquier<adj><ind><m><sg>:qualquier
+qualquiera<adj><ind><f><sg>:qualquiera
+
+LEXICON ForeignWord
+of<for>:of
+
 ###############################################################################
 ###                          L E X I C O N                                  ###
 ###############################################################################
@@ -3620,6 +3634,16 @@ LEXICON NounRoot
 
  # A noun
 
+ounibersidade:ounibersidade[F]
+punto:punto[M]
+acuordo:acuordo[M]
+anfluéncia:anfluéncia[F]
+cunceilho:cunceilho[M]
+teorie:teorie[F]
+munecípio:munecípio[M]
+mobimiento:mobimiento[M]
+ounion:ounion[F]
+auga:auga[F]
 serie:serie{F}
 maiorie:maiorie[F]
 ourige:ourige[F]
@@ -11469,7 +11493,7 @@ desentulhador:desentulhador[M]
 desentupimento:desentupimento[M]
 desenboluçon:desenboluçon[M]
 desenbolbedor:desenbolbedor[M]
-desenbolbimento:desenbolbimento[M]
+zambolbimiento:zambolbimiento[M]
 desenxabimento:desenxabimento[M]
 desequilíbrio:desequilíbrio[M]
 deserdaçon:deserdaçon[M]
@@ -27632,7 +27656,7 @@ socialismo:socialismo[M]
 socialista:socialista[F]
 socializaçon:socializaçon[M]
 sociatria:sociatria[F]
-sociedade:sociedade[MF]
+sociadade:sociadade[F]
 societário:societário[M]
 sociocracia:sociocracia[F]
 sociofilia:sociofilia[F]
@@ -30661,6 +30685,8 @@ zínia:zínia[F]
 LEXICON AdjRoot
 
 # An adjective
+pertués:pertués[M]
+pertuesa:pertuesa[M]
 defrente:defrente[MF]
 nuobo:nuobo[M]
 nuoba:nuoba[F]
@@ -87996,6 +88022,8 @@ zurzidor:zurzidor[MF]
 LEXICON AdvRoot
 
 # An adverb
+percipalmente:percipalmente
+siempre:siempre
 anquanto:anquanto
 hoije:hoije
 frequentemente:frequentemente
@@ -91229,6 +91257,8 @@ algun<prn><tn><m><sg>:algun
 algun<prn><tn><f><sg>:alguna
 algun<prn><tn><m><pl>:alguns
 algun<prn><tn><f><pl>:alguas
+qualquier<prn><tn><m><sg>:qualquier
+qualquier<prn><tn><f><sg>:qualquiera
 esto<prn><dem><mf><sg>:esto
 esso<prn><dem><mf><sg>:esso
 aqueilho<prn><dem><mf><sg>:aqueilho
