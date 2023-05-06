@@ -3335,6 +3335,7 @@ LEXICON v-SimplePresentIndicative
 <pri><p3><sg>:a[AR]
 <pri><p1><pl>:amos[AR]
 <pri><p2><pl>:ais[AR]
+<pri><p3><pl>:an[AR]
 
 <pri><p1><sg>:o[IR]
 <pri><p2><sg>:es[IR]
@@ -3644,7 +3645,7 @@ munecípio:munecípio[M]
 mobimiento:mobimiento[M]
 ounion:ounion[F]
 auga:auga[F]
-serie:serie[F]
+serie:serie{F}
 maiorie:maiorie[F]
 ourige:ourige[F]
 política:política[F]
@@ -91280,7 +91281,29 @@ LEXICON Numeral
 7
 8
 9
-
+I 
+II 
+III 
+IV 
+V 
+VI 
+VII 
+VIII 
+IX 
+X 
+XI
+XII
+XIII
+XIV
+XV 
+XVI
+XVII
+XVIII
+XIX
+XX
+XXI
+L 
+C
 
 LEXICON Punctuation
 
