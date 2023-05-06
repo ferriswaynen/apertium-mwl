@@ -12,8 +12,9 @@
 # <ij>     # Interjection
 # <np>     # Proper noun
 # <top>    # Toponym
-
+# <ant>    # Anthroponym
 # <for>    # Foreign word
+# <acr>    # Acronym
 
 # <sent>   # Sentence-ending punctuation
 # <guio>   # Hyphen
@@ -102,6 +103,7 @@ PossAdjective
 DemAdjective
 ForeignWord
 IndAdjective
+Acronym
 
 ## Example inflection lexicon:
 LEXICON RegNounInfl
@@ -123,6 +125,10 @@ LEXICON RegIjInfl
 <ij>:
 
 LEXICON v-Stem
+quedar:qued[AR]
+screbir:screb[IR]
+dezir:dez[IR]
+ancluir:anclu[IR]
 falar:fal[AR]
 deber:deb[ER]
 eisistir:eisist[IR]
@@ -3511,6 +3517,8 @@ contra<pr>:contra
 sin<pr>:sin
 atrabeç<pr>:atrabeç
 sob<pr>:sob
+drento<pr>:drento
+apuis<pr>:apuis
 
 LEXICON Determiner
 un<det><ind><m><sg>:un
@@ -3525,6 +3533,8 @@ cuntribuir<vblex><inf>:cuntribuir
 cuntribuir<vblex><pri><p3><sg>:cuntribui
 tener<vblex><pri><p3><sg>:ten
 tener<vblex><pri><p3><pl>:ténen
+tener<vblex><prs><p1><sg>:tenga
+tener<vblex><prs><p3><sg>:tenga
 ser<vbser><pri><p1><sg>:sou
 ser<vbser><pri><p3><sg>:ye
 ser<vbser><prs><p3><sg>:seia
@@ -3537,18 +3547,27 @@ ser<vbser><pri><p3><pl>:son
 ser<vbser><past><p3><pl>:fúrun
 ser<vbser><ger>:sendo
 ser<vbser><pp>:sido
+ser<vbser><pis><p1><sg>:fusse
+ser<vbser><pis><p3><sg>:fusse
 star<vblex><pii><p3><pl>:éran
 poder<vblex><pri><p3><sg>:puode
 poder<vblex><pri><p3><pl>:puoden
 ampeçar<vblex><pri><p1><sg>:ampeço
 ampeçar<vblex><past><p3><sg>:ampeçou
 haber<vblex><pri><p3><sg>:hai
+fazer<vblex><past><p3><sg>:fizo
+coincer<vblex><pp>:coincido
+cunsidrar<vblex><pp>:cunsidrado
+querer<vblex><pri><p3><sg>:quier
 
 LEXICON Conjunction
 ó<cnjcoo>:ó
 i<cnjcoo>:i
 que<cnjsub>:que
 qu<cnjsub>:qu #Dir/LR
+ambora<cnjsub>:ambora
+anque<cnjsub>:anque
+nin<cnjcoo>:nin
 
 LEXICON Contraction
 por<pr>+l<det><def><m><sg>:pul
@@ -3570,6 +3589,11 @@ cun<pr>+l<det><def><m><sg>:cul
 cun<pr>+l<det><def><f><sg>:cula
 cun<pr>+l<det><def><m><pl>:culs
 cun<pr>+l<det><def><f><pl>:culas
+de<pr>+este<adj><dem><prx><m><sg>:deste
+de<pr>+este<adj><dem><prx><f><sg>:desta
+de<pr>+este<adj><dem><prx><m><pl>:destes
+de<pr>+este<adj><dem><prx><f><pl>:destas
+de<pr>+el<prn><pers><p3><m><sg><subj>:duas
 
 LEXICON NumberWord
 dous<numw><m><sp>:dous
@@ -3598,6 +3622,30 @@ América<np><top><f><sg>:América
 África<np><top><f><sg>:África
 Almanha<np><top><f><sg>:Almanha
 Spanha<np><top><f><sg>:Spanha
+Índia<np><top><f><sg>:Índia
+Roma<np><top><f><sg>:Roma
+Jasus<np><ant><m><sg>:Jasus
+Anglaterra<np><top><f><sg>:Anglaterra
+João<np><ant><m><sg>:João
+Paris<np><top><f><sg>:Paris
+Pedro<np><ant><m><sg>:Pedro
+José<np><ant><m><sg>:José
+Japon<np><top><m><sg>:Japon
+Rússia<np><top><f><sg>:Rússia
+Bulgária<np><top><f><sg>:Bulgária
+Croácia<np><top><f><sg>:Croácia
+Polónia<np><top><f><sg>:Polónia
+Roménia<np><top><f><sg>:Roménia
+Sérbia<np><top><f><sg>:Sérbia
+Turquie<np><top><f><sg>:Turquie
+Ucránia<np><top><f><sg>:Ucránia
+Carlos<np><ant><m><sg>:Carlos
+Eitália<np><top><f><sg>:Eitália
+Paulo<np><ant><m><sg>:Paulo
+John<np><ant><m><sg>:John
+Fudan<np><top><m><sg>:China
+Cristo<np><ant><m><sg>:Cristo
+Marie<np><ant><f><sg>:Marie
 
 LEXICON PossAdjective
 sou<adj><pos><m><sg>:sou
@@ -3625,6 +3673,12 @@ qualquiera<adj><ind><f><sg>:qualquiera
 
 LEXICON ForeignWord
 of<for>:of
+University<for>:University
+Press<for>:Press
+The<for>:The
+
+LEXICON Acronym
+ISBN<acr>:ISBN
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -3635,6 +3689,43 @@ LEXICON NounRoot
 
  # A noun
 
+anformaçon:anformaçon[F]
+caratelística:caratelística[F]
+eideia:eideia[F]
+ourganizaçon:ourganizaçon[F]
+aire:aire[M]
+eidade:eidade[F]
+oubjetibo:oubjetibo[M]
+ingro:ingro[M]
+sobrefiç:sobrefiç[F]
+houmano:houmano[M]
+poblaçon:poblaçon[F]
+judiu:judiu[M]
+porbíncia:porbíncia[F]
+oufecial:oufecial[M]
+eisisténcia:eisisténcia[F]
+orde:orde[F]
+eisército:eisército[M]
+lhado:lhado[M]
+porgrama:porgrama[M]
+andependéncia:andependéncia[F]
+eilemiento:eilemiento[M]
+eiquenomie:eiquenomie[F]
+nible:nible[M]
+mulhier:mulhier[F]
+persidente:persidente[MF]
+coincimiento:coincimiento[M]
+anglés:anglés[M]
+porblema:porblema[M]
+cuorpo:cuorpo[M]
+fuorça:fuorça[F]
+spácio:spácio[M]
+superfice:superfice[F]
+custruçon:custruçon[F]
+buolta:buolta[F]
+çtrito:çtrito[M]
+porduçon:porduçon[F]
+dreito:dreito[M]
 ounibersidade:ounibersidade[F]
 punto:punto[M]
 acuordo:acuordo[M]
@@ -20070,6 +20161,7 @@ lésbia:lésbia[F]
 líder:líder[M]
 líderdaoposiçon:líderdaoposiçon[M]
 lhéngua:lhéngua[F]
+lhéngua:léngua[F] #Dir/LR
 lípido:lípido[M]
 lhíquido:lhíquido[M]
 líria:líria[F]
@@ -30686,7 +30778,30 @@ zínia:zínia[F]
 LEXICON AdjRoot
 
 # An adjective
-pertués:pertués[M]
+scrito:scrito[M]
+scrita:scrita[F]
+amaricano:amaricano[M]
+amaricana:amaricana[F]
+houmano:houmano[M]
+houmana:houmana[F]
+oufecial:oufecial[MF]
+fuorte:fuorte[MF]
+griego:griego[M]
+griega:griega[F]
+quemun:quemun[M]
+quemuna:quemuna[F]
+melitar:melitar[MF]
+possible:possible[MF]
+cunsidrado:cunsidrado[M]
+cunsidrada:cunsidrada[F]
+coincido:coincido[M]
+coincida:coincida[F]
+sido:sido[M]
+sida:sida[F]
+própio:própio[M]
+própia:própia[M]
+giral:giral[MF]
+pertués:pertue{accent}s[M]
 pertuesa:pertuesa[M]
 defrente:defrente[MF]
 nuobo:nuobo[M]
@@ -88023,6 +88138,12 @@ zurzidor:zurzidor[MF]
 LEXICON AdvRoot
 
 # An adverb
+specialmente:specialmente
+solamente:solamente
+nin:nin
+tan:tan
+giralmente:giralmente
+quaije:quaije
 percipalmente:percipalmente
 siempre:siempre
 anquanto:anquanto
@@ -91263,6 +91384,8 @@ qualquier<prn><tn><f><sg>:qualquiera
 esto<prn><dem><mf><sg>:esto
 esso<prn><dem><mf><sg>:esso
 aqueilho<prn><dem><mf><sg>:aqueilho
+si<prn><tn><ref><p3><mf><sp>:si
+quien<prn><itg><mf><sp>:quien
 
 LEXICON IjRoot
 nó:nó
