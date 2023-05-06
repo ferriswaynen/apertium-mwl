@@ -53,6 +53,7 @@
 # <pos>    # Possessive
 # <obj>    # Object
 # <ido>    # Indirect object
+# <itg>    # Interrogative
 
 # Other symbols
 # >        # Morpheme boundary
@@ -3231,7 +3232,7 @@ urbanizar:urbaniz[AR]
 usar:us[AR]
 usufruir:usufru[IR]
 usurpar:usurp[AR]
-utilizar:utiliz[AR]
+outelizar:outeliz[AR]
 ber:b[ER]
 bestir:best[IR]
 bir:b[IR]
@@ -3493,6 +3494,7 @@ ne<pr>:ne
 subre<pr>:subre
 durante<pr>:durante
 zde<pr>:zde
+contra<pr>:contra
 
 LEXICON Determiner
 un<det><ind><m><sg>:un
@@ -3600,6 +3602,7 @@ manteiga:manteiga[F]
 queiso:queiso[M]
 eiagurte:eiagurte[M]
 outro:outro[M]
+outra:outra[F]
 andústria:andústria[F]
 perduto:perduto[M]
 pó:pó[M]
@@ -20672,8 +20675,8 @@ melánia:melánia[F]
 melícia:melícia[F]
 melómano:melómano[M]
 melúria:melúria[F]
-membrana:membrana[F]
-membro:membro[M]
+nembrana:nembrana[F]
+nembro:nembro[M]
 memento:memento[M]
 memoraçon:memoraçon[M]
 memorialista:memorialista[F]
@@ -23223,7 +23226,7 @@ pabilhon:pabilhon[M]
 pabimentaçon:pabimentaçon[M]
 pabimento:pabimento[M]
 paz:paz[M]
-paíç:paí{Ç}[M]
+paíç:paí{Ç}[M]
 PC:PC[M]
 PDC:PDC[M]
 pe:pe[MF]
@@ -29730,13 +29733,13 @@ uteromania:uteromania[F]
 uterorragie:uterorragie[F]
 uteroscopia:uteroscopia[F]
 uterotomia:uterotomia[F]
-utilidade:utilidade[MF]
-utilitarismo:utilitarismo[M]
-utilitarista:utilitarista[F]
-utilitário:utilitário[M]
-utilizador:utilizador[M]
-utilizador:utilizador[M]
-utilizaçon:utilizaçon[M]
+outelidade:outelidade[MF]
+outelitarismo:outelitarismo[M]
+outelitarista:outelitarista[F]
+outelitário:outelitário[M]
+outelizador:outelizador[M]
+outelizador:outelizador[M]
+outelizaçon:outelizaçon[M]
 utopia:utopia[F]
 utopista:utopista[F]
 utriculária:utriculária[F]
@@ -46786,8 +46789,8 @@ melá:melá[MF]
 melí:melí[MF]
 meló:meló[MF]
 meló:meló[MF]
-membrado:membrado[MF]
-membranoso:membranoso[MF]
+nembrado:nembrado[MF]
+nembranoso:nembranoso[MF]
 memoratibo:memoratibo[MF]
 memorial:memorial[MF]
 memorialista:memorialista[MF]
@@ -54158,11 +54161,11 @@ usurá:usurá[MF]
 usuá:usuá[MF]
 usá:usá[MF]
 uterino:uterino[MF]
-utilitarista:utilitarista[MF]
-utilitá:utilitá[MF]
-utilizado:utilizado[MF]
-utilizá:utilizá[MF]
-utilizá:utilizá[MF]
+outelitarista:outelitarista[MF]
+outelitá:outelitá[MF]
+outelizado:outelizado[MF]
+outelizá:outelizá[MF]
+outelizá:outelizá[MF]
 utopista:utopista[MF]
 utricular:utricular[MF]
 utó:utó[MF]
@@ -57828,9 +57831,9 @@ urbanisticamente:urbanisticamente
 urgentemente:urgentemente
 usualmente:usualmente
 usurariamente:usurariamente
-utilitariamente:utilitariamente
-utilizabelmente:utilizabelmente
-utilmente:utilmente
+outelitariamente:outelitariamente
+outelizabelmente:outelizabelmente
+outelmente:outelmente
 utopicamente:utopicamente
 
 bagamente:bagamente
@@ -57966,6 +57969,7 @@ eilhes<prn><pers><p3><m><pl><ido>:le
 eilhes<prn><pers><p3><m><pl><ido>:les #Dir/LR
 eilhas<prn><pers><p3><f><pl><ido>:le
 eilhas<prn><pers><p3><f><pl><ido>:les #Dir/LR
+qual<prn><itg><mf><sg>:qual
 
 LEXICON IjRoot
 nó:nó
