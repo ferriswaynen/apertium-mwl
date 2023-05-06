@@ -3589,6 +3589,7 @@ Brasil<np><top><m><sg>:Brasil
 Pertual<np><top><m><sg>:Pertual
 Ouropa<np><top><f><sg>:Ouropa
 Stados\Ounidos<np><top><m><pl>:Stados\Ounidos
+América<np><top><f><sg>:América
 
 LEXICON PossAdjective
 sou<adj><pos><m><sg>:sou
@@ -24143,7 +24144,7 @@ portista:portista[F]
 portlandiano:portlandiano[M]
 porto:porto[M]
 portugalidade:portugalidade[MF]
-portugués:portugués[M]
+pertués:pertués[M]
 portuguesismo:portuguesismo[M]
 portulano:portulano[M]
 portátil:portátil[M]
@@ -30660,6 +30661,7 @@ zínia:zínia[F]
 LEXICON AdjRoot
 
 # An adjective
+defrente:defrente[MF]
 nuobo:nuobo[M]
 nuoba:nuoba[F]
 bário:bário[M]
