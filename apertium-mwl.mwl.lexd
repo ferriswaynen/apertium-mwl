@@ -3,17 +3,17 @@
 # Part of speech categories
 # <n>      # Noun
 # <v>      # verb
-# <adj>    # Adjetive
+# <adj>    # Adjective
 # <num>    # Numeral
 # <adv>    # Adverb
 # <prn>    # Pronoun
 # <pro>
 # <gend>   # Gender
-# <ij>     # Interjetion
+# <ij>     # Interjection
 # <np>     # Proper noun
 # <top>    # Toponym
 
-# <sent>   # Sentence-ending puntuation
+# <sent>   # Sentence-ending punctuation
 # <guio>   # Hyphen
 # <cm>     # Comma
 # <apos>   # Apostrophe
@@ -39,7 +39,7 @@
 # <pri>    # Present
 # <past>   # Past
 # <fut>    # Future
-# <fts>    # Future subjuntive
+# <fts>    # Future subjunctive
 # <p1>     # First person
 # <p2>     # Second person
 # <p3>     # Third person
@@ -49,11 +49,17 @@
 
 # Pronoun morphology
 # <pers>   # Personal
-# <subj>   # Subjetive
+# <subj>   # Subjective
 # <pos>    # Possessive
-# <obj>    # Objet
-# <ido>    # Indiret objet
+# <obj>    # Object
+# <ido>    # Indirect object
 # <itg>    # Interrogative
+# <tn>     # Tonic
+
+# Adjective morphology
+# <prx>    # Proximate
+# <med>    # Medial
+# <dst>    # Distal
 
 # Other symbols
 # >        # Morpheme boundary
@@ -63,7 +69,7 @@
 ###############################################################################
 
 PATTERNS
-## Infletion patterns
+## Inflection patterns
 (NounRoot RegNounInfl)[^[M,F]]
 (AdjRoot RegAdjInfl)[^[M,F]]
 AdvRoot RegAdvInfl
@@ -73,25 +79,27 @@ PrnRoot
 (v-Stem [<vblex><inf>:] Infin)[^[AR,ER,IR]]
 (v-Stem [<vblex>:] v-SimplePresentIndicative)[^[AR,ER,IR]]
 (v-Stem [<vblex>:] v-SimplePastIndicative)[^[AR,ER,IR]]
-(v-Stem [<vblex>:] v-ImperfetIndicative)[^[AR,ER,IR]]
-(v-Stem [<vblex>:] v-PluperfetIndicative)[^[AR,ER,IR]]
-(v-Stem [<vblex>:] v-ImperfetSubjuntive)[^[AR,ER,IR]]
+(v-Stem [<vblex>:] v-ImperfectIndicative)[^[AR,ER,IR]]
+(v-Stem [<vblex>:] v-PluperfectIndicative)[^[AR,ER,IR]]
+(v-Stem [<vblex>:] v-ImperfectSubjunctive)[^[AR,ER,IR]]
 (v-Stem [<vblex>:] Infin v-SimpleFutureIndicative)[^[AR,ER,IR]]
-(v-Stem [<vblex>:] Infin v-SimpleFutureSubjuntive)[^[AR,ER,IR]]
+(v-Stem [<vblex>:] Infin v-SimpleFutureSubjunctive)[^[AR,ER,IR]]
 (v-Stem [<vblex>:] Infin v-Conditional)[^[AR,ER,IR]]
 (v-Stem [<vblex>:] v-Gerund)[^[AR,ER,IR]]
 
 Preposition
 Determiner
 Irregular-verb
-Conjuntion
-Contration
+Conjunction
+Contraction
 Number
 NumberWord
-Puntuation
+Punctuation
 NP_Symbol
+PossAdjective
+DemAdjective
 
-## Example infletion lexicon:
+## Example inflection lexicon:
 LEXICON RegNounInfl
 <n><m><sg>:[M]
 <n><f><sg>:[F]
@@ -3351,7 +3359,7 @@ LEXICON v-SimplePastIndicative
 <past><p2><pl>:istes[IR]
 <past><p3><pl>:írun[IR]
 
-LEXICON v-ImperfetIndicative
+LEXICON v-ImperfectIndicative
 <pii><p1><sg>:aba[AR]
 <pii><p2><sg>:abas[AR]
 <pii><p3><sg>:aba[AR]
@@ -3371,7 +3379,7 @@ LEXICON v-ImperfetIndicative
 <pii><p2><pl>:iedes[IR]
 <pii><p3><pl>:ien[IR]
 
-LEXICON v-PluperfetIndicative
+LEXICON v-PluperfectIndicative
 <pmp><p1><sg>:ara[AR]
 <pmp><p2><sg>:aras[AR]
 <pmp><p3><sg>:ara[AR]
@@ -3411,7 +3419,7 @@ LEXICON v-SimpleFutureIndicative
 <fut><p2><pl>:eis[IR]
 <fut><p3><pl>:an[IR]
 
-LEXICON v-ImperfetSubjuntive
+LEXICON v-ImperfectSubjunctive
 <pis><p1><sg>:asse[AR]
 <pis><p2><sg>:asses[AR]
 <pis><p3><sg>:asse[AR]
@@ -3431,7 +3439,7 @@ LEXICON v-ImperfetSubjuntive
 <pis><p2><pl>:íssedes[IR]
 <pis><p3><pl>:íssen[IR]
 
-LEXICON v-SimpleFutureSubjuntive
+LEXICON v-SimpleFutureSubjunctive
 <fts><p1><sg>:[AR]
 <fts><p2><sg>:es[AR]
 <fts><p3><sg>:[AR]
@@ -3495,6 +3503,8 @@ subre<pr>:subre
 durante<pr>:durante
 zde<pr>:zde
 contra<pr>:contra
+sin<pr>:sin
+atrabeç<pr>:atrabeç
 
 LEXICON Determiner
 un<det><ind><m><sg>:un
@@ -3510,6 +3520,7 @@ cuntribuir<vblex><pri><p3><sg>:cuntribui
 tener<vblex><pri><p3><sg>:ten
 ser<vbser><pri><p1><sg>:sou
 ser<vbser><pri><p3><sg>:ye
+ser<vbser><prs><p3><sg>:seia
 ser<vbser><prs><p3><pl>:séian
 ser<vbser><past><p1><sg>:fui
 ser<vbser><past><p3><sg>:fui
@@ -3519,14 +3530,17 @@ ser<vbser><ger>:sendo
 ser<vbser><pp>:sido
 star<vblex><pii><p3><pl>:éran
 poder<vblex><pri><p3><sg>:puode
+poder<vblex><pri><p3><pl>:puoden
+ampeçar<vblex><pri><p1><sg>:ampeço
+haber<vblex><pri><p3><sg>:hai
 
-LEXICON Conjuntion
+LEXICON Conjunction
 ó<cnjcoo>:ó
 i<cnjcoo>:i
 que<cnjsub>:que
 qu<cnjsub>:qu #Dir/LR
 
-LEXICON Contration
+LEXICON Contraction
 por<pr>+l<det><def><m><sg>:pul
 por<pr>+l<det><def><f><sg>:pula
 por<pr>+l<det><def><m><pl>:puls
@@ -3550,24 +3564,46 @@ cun<pr>+l<det><def><f><pl>:culas
 LEXICON NumberWord
 dous<numw><m><sp>:dous
 dous<numw><f><sp>:dues
-binte<numw><mf><p>:binte
-cien<numw><mf><p>:cien
-cinco<numw><mf><p>:cinco
-dieç<numw><mf><p>:dieç
-nuôbe<numw><mf><p>:nuôbe
-onze<numw><mf><p>:onze
-quatro<numw><mf><p>:quatro
-seis<numw><mf><p>:seis
-siete<numw><mf><p>:siete
-trinta<numw><mf><p>:trinta
-trés<numw><mf><p>:trés
-uito<numw><mf><p>:uito
+binte<numw><mf><sp>:binte
+cien<numw><mf><sp>:cien
+cinco<numw><mf><sp>:cinco
+dieç<numw><mf><sp>:dieç
+nuôbe<numw><mf><sp>:nuôbe
+onze<numw><mf><sp>:onze
+quatro<numw><mf><sp>:quatro
+seis<numw><mf><sp>:seis
+siete<numw><mf><sp>:siete
+trinta<numw><mf><sp>:trinta
+trés<numw><mf><sp>:trés
+uito<numw><mf><sp>:uito
+mil<numw><mf><sp>:mil
 
 LEXICON NP_Symbol
 China<np><top><f><sg>:China
 Brasil<np><top><m><sg>:Brasil
 Pertual<np><top><m><sg>:Pertual
 Ouropa<np><top><f><sg>:Ouropa
+Stados\Ounidos<np><top><m><pl>:Stados\Ounidos
+
+LEXICON PossAdjective
+sou<adj><pos><m><sg>:sou
+sou<adj><pos><f><sg>:sue
+sou<adj><pos><m><pl>:sous
+sou<adj><pos><f><pl>:sues
+
+LEXICON DemAdjective
+este<adj><dem><prx><m><sg>:este
+este<adj><dem><prx><f><sg>:esta
+este<adj><dem><prx><m><pl>:estes
+este<adj><dem><prx><f><pl>:estas
+esse<adj><dem><med><m><sg>:esse
+esse<adj><dem><med><f><sg>:essa
+esse<adj><dem><med><m><pl>:esses
+esse<adj><dem><med><f><pl>:essas
+aqueilhe<adj><dem><dst><m><sg>:aqueilhe
+aqueilhe<adj><dem><dst><f><sg>:aquielha
+aqueilhe<adj><dem><dst><m><pl>:aqueilhes
+aqueilhe<adj><dem><dst><f><pl>:aquielhas
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -3578,10 +3614,16 @@ LEXICON NounRoot
 
  # A noun
 
+fin:fin[M]
+númaro:númaro[M]
+eigreija:eigreija[F]
+ária:ária[F]
+época:época[F]
 anho:anho[M]
 seclo:seclo[M]
 region:region[F]
 tiempo:tiempo[M]
+este:este[M]
 
 coco:coco[M]
 arroç:arro{Ç}[M]
@@ -14688,11 +14730,11 @@ executante:executante[MF]
 executibo:executibo[M]
 executória:executória[F]
 execuçon:execuçon[M]
-exemplar:exemplar[M]
-exemplaridade:exemplaridade[MF]
-exemplificaçon:exemplificaçon[M]
-exemplo:exemplo[M]
-exemplário:exemplário[M]
+eisemplar:eisemplar[M]
+eisemplaridade:eisemplaridade[MF]
+eisemplificaçon:eisemplificaçon[M]
+eisemplo:eisemplo[M]
+eisemplário:eisemplário[M]
 exencefalia:exencefalia[F]
 exenteraçon:exenteraçon[M]
 exequibilidade:exequibilidade[MF]
@@ -30607,7 +30649,9 @@ zínia:zínia[F]
 
 LEXICON AdjRoot
 
-# An adjetive
+# An adjective
+bário:bário[M]
+bária:bária[F]
 San:San[MF]
 purmeiro:purmeiro[M]
 purmeira:purmeira[F]
@@ -30656,6 +30700,7 @@ farmacéutico:farmacéutico[M]
 farmacéutico:farmacéutica[F]
 cundensado:cundensado[M]
 cundensado:cundensada[F]
+Ounido:Ounido[M]
 
 aaleniano:aaleniano[MF]
 ababalhá:ababalhá[MF]
@@ -41170,11 +41215,11 @@ executibo:executibo[MF]
 executá:executá[MF]
 executó:executó[MF]
 exegé:exegé[MF]
-exemplar:exemplar[MF]
-exemplificado:exemplificado[MF]
-exemplificador:exemplificador[MF]
-exemplificatibo:exemplificatibo[MF]
-exemplificá:exemplificá[MF]
+eisemplar:eisemplar[MF]
+eisemplificado:eisemplificado[MF]
+eisemplificador:eisemplificador[MF]
+eisemplificatibo:eisemplificatibo[MF]
+eisemplificá:eisemplificá[MF]
 exencefá:exencefá[MF]
 exequial:exequial[MF]
 exercido:exercido[MF]
@@ -54740,6 +54785,7 @@ zurzidor:zurzidor[MF]
 LEXICON AdvRoot
 
 # An adverb
+hoije:hoije
 frequentemente:frequentemente
 manhana:manhana
 lhougo:lhougo
@@ -55958,7 +56004,7 @@ sclusibamente:sclusibamente
 execrabelmente:execrabelmente
 executibamente:executibamente
 exegeticamente:exegeticamente
-exemplarmente:exemplarmente
+eisemplarmente:eisemplarmente
 exequibelmente:exequibelmente
 
 exibicionisticamente:exibicionisticamente
@@ -57936,12 +57982,8 @@ eilhes<prn><pers><p3><m><pl><subj>:eilhes
 eilhas<prn><pers><p3><f><pl><subj>:eilhas
 you<prn><pers><p1><sg><pos>:miu
 tu<prn><pers><p2><sg><pos>:tou
-el<prn><pers><p3><m><sg><pos>:sou
-eilha<prn><pers><p3><f><sg><pos>:sue
 nós<prn><pers><p1><pl><pos>:nuosso
 bós<prn><pers><p2><pl><pos>:buosso
-eilhes<prn><pers><p3><m><pl><pos>:sou
-eilhas<prn><pers><p3><f><pl><pos>:sue
 you<prn><pers><p1><sg><obj>:me
 tu<prn><pers><p2><sg><obj>:te
 el<prn><pers><p3><m><sg><obj>:lo
@@ -57970,6 +58012,10 @@ eilhes<prn><pers><p3><m><pl><ido>:les #Dir/LR
 eilhas<prn><pers><p3><f><pl><ido>:le
 eilhas<prn><pers><p3><f><pl><ido>:les #Dir/LR
 qual<prn><itg><mf><sg>:qual
+algun<prn><tn><m><sg>:algun
+algun<prn><tn><f><sg>:alguna
+algun<prn><tn><m><pl>:alguns
+algun<prn><tn><f><pl>:algunas
 
 LEXICON IjRoot
 nó:nó
@@ -57990,7 +58036,7 @@ LEXICON Numeral
 9
 
 
-LEXICON Puntuation
+LEXICON Punctuation
 
 .<sent>:.
 ..<sent>:..
@@ -58017,12 +58063,11 @@ LEXICON Puntuation
 
 
 # Resources:
-# https://github.cum/apertium/lexd/blob/master/Usage.md
+# https://github.com/apertium/lexd/blob/master/Usage.md
 # https://wiki.apertium.org/wiki/List_of_symbols
 # https://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#lexicon
 # https://wiki.apertium.org/wiki/Lttoolbox_and_lexc
-# https://wiki.apertium.org/wiki/Apertium-specific_cunbentions_for_lexc
+# https://wiki.apertium.org/wiki/Apertium-specific_conventions_for_lexc
 # https://kitwiki.csc.fi/twiki/bin/biew/KitWiki/HfstHome
-# https://github.cum/hfst/
+# https://github.com/hfst/
 # https://wiki.apertium.org/wiki/Hfst
-
