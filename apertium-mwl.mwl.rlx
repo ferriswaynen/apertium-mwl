@@ -14,6 +14,7 @@ LIST VERB = vblex;
 LIST FIRSTPRN = (prn pers p1 sg subj);
 LIST FIRSTFTS = (fts p1 sg);
 LIST FIRSTCNI = (cni p1 sg);
+LIST ADJ = adj;
 
 SECTION
 # If there is a singular noun to the right, I cannot be a verb or noun.
@@ -51,6 +52,18 @@ SELECT FIRSTFTS IF
 SELECT FIRSTCNI IF
     (-1 FIRSTPRN)
     (0 VERB) ;
+
+# If an infintive is preceded by a noun, it functions as an adjective.
+
+SELECT ADJ IF
+    (-1 NOUN)
+    (0 INFIN) ;
+
+# If an infintive is preceded by "ye," it functions as an adjective.
+
+SELECT ADJ IF
+    (-1 VERBSER)
+    (0 INFIN) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
